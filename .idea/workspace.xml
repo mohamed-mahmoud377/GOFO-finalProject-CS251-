@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="21ea433d-c8bb-4680-a2bb-bb0db1902d6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GOFO-finalProject-CS251-.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOFO/DataModel/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOFO/Registering/I_LogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOFO/Registering/I_SignUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOFO/Users/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOFO/Users/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GOFO/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Docker_agent_api_rt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javedoc/GOFO-finalProject-CS251-.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/users/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/users/PlayGroundOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/PlayGroundOwner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/users/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/users/User.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1c64pFQEIjO0d3TQgavPsg925wb" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="GOFO.Main" />
+      <module name="GOFO-finalProject-CS251-" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21ea433d-c8bb-4680-a2bb-bb0db1902d6d" name="Default Changelist" comment="" />
+      <created>1589835889638</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589835889638</updated>
+      <workItem from="1589835891854" duration="1613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1589836229048">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1589836229048" />
+    <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1589835946428">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589835946428" />
+    <state width="1493" height="149" key="GridCell.Tab.0.bottom" timestamp="1589836112965">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="149" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589836112965" />
+    <state width="1493" height="149" key="GridCell.Tab.0.center" timestamp="1589836112964">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="149" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589836112964" />
+    <state width="1493" height="149" key="GridCell.Tab.0.left" timestamp="1589836112964">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="149" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589836112964" />
+    <state width="1493" height="149" key="GridCell.Tab.0.right" timestamp="1589836112964">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="149" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589836112964" />
+    <state x="249" y="7" key="SettingsEditor" timestamp="1589836026675">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589836026675" />
+  </component>
+</project>
