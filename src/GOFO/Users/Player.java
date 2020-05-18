@@ -1,6 +1,9 @@
-package GOFO.users;
+package GOFO.Users ;
 
-public class Player extends User {
+import GOFO.Registering.I_LogIn;
+import GOFO.Registering.I_SignUp;
+
+public class Player extends User implements I_LogIn , I_SignUp {
 
 
 
@@ -15,11 +18,11 @@ public class Player extends User {
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public String getEmail() {
@@ -30,12 +33,11 @@ public class Player extends User {
         Email = email;
     }
 
-    public String getPassWOrd() {
-        return passWOrd;
+    public String getPassWord() {
+        return PassWord;
     }
 
-    public void setPassWOrd(String passWOrd) {
-        this.passWOrd = passWOrd;
+    public void setPassWord(String passWord) {
+        PassWord = passWord;
     }
-
 }
