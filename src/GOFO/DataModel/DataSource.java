@@ -61,6 +61,9 @@ public class DataSource {
         players.add(player5);
 
     }
+    public void addNewPlayer(Player newPlayer){
+        players.add(newPlayer);
+    }
 
 
 

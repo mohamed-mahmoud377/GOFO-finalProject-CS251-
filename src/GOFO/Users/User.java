@@ -10,7 +10,7 @@ public class User {
     String ID;
     String name;
     String Email;
-    String PassWord;
+    String passWord;
     public User() {
         this("none","none","none","none");
 
@@ -19,7 +19,7 @@ public class User {
         this.ID = ID;
         this.name = name;
         Email = email;
-        PassWord = passWord;
+        passWord = passWord;
     }
     public String getID() {
         return ID;
@@ -46,11 +46,11 @@ public class User {
     }
 
     public String getPassWord() {
-        return PassWord;
+        return passWord;
     }
 
     public void setPassWord(String passWord) {
-        PassWord = passWord;
+        passWord = passWord;
     }
 
 

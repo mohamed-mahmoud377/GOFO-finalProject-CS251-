@@ -42,6 +42,7 @@ public class Player extends User implements I_LogIn , I_SignUp {
           }
 
       }
+      this.name = name;
       return true;
     }
 
@@ -64,6 +65,7 @@ public class Player extends User implements I_LogIn , I_SignUp {
         }else {
             return false;
         }
+        this.ID = ID;
         return true;
     }
 
@@ -77,12 +79,24 @@ public class Player extends User implements I_LogIn , I_SignUp {
 
     @Override
     public boolean signUp_password(String password) {
+        boolean num_check = false;
+        boolean cap_check = false;
         if(password.length()<8)
             return false;
+        for(int i=0 ;i<password.length();i++){
+            if(isUpperCase(password.charAt(i)))
+                cap_check = true;
+            if(isDigit(password.charAt(i)))
+                num_check=true;
+
+        }
+        this.passWord = password;
+        return num_check && cap_check;
     }
 
     @Override
     public void create_account() {
+        DataSource.getInstance().addNewPlayer(this);
 
     }
 }
