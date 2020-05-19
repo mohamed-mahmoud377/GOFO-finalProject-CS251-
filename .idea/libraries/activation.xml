@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="activation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/java activation/jaf-1.1.1/activation.jar!/" />
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$PROJECT_DIR$/lib/java activation/jaf-1.1.1/docs/javadocs" />
+      <root url="file://$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/docs/javadocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib/java activation/jaf-1.1.1/demo" />
+      <root url="file://$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo" />
+      <root url="file://$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/client" />
+      <root url="file://$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/logging" />
+      <root url="file://$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/outlook" />
+      <root url="file://$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/servlet" />
+      <root url="file://$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/webapp/src/classes" />
+      <root url="file://$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/webapp/src/taglib" />
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
+  </library>
+</component>
