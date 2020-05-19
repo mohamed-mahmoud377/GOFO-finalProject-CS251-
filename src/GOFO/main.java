@@ -20,7 +20,7 @@ public class Main {
             while(true) {
                 while (true) {
                     try {
-                        System.out.println("welcome to our PlayGround registration system :D\n");
+                        System.out.println("welcome to GOFO :D\n");
                         System.out.println("[1] log in");
                         System.out.println("[2] sing up\n");
                         System.out.println("[3] want to own a playground ?\n");
@@ -30,9 +30,23 @@ public class Main {
 
                         if (int_input == 1) {
 
-
-
                         } else if (int_input == 2) {
+                            currentPlayer = new Player();
+                            scanner.nextLine();//clean the buffer
+                            System.out.println("enter your full name ");
+                            string_input=scanner.nextLine();
+
+                            while(!currentPlayer.signUp_name(string_input)){
+                                //while get into this loop if the user entered a wrong user name
+                                //only char works
+                                System.out.println("the name entered is not valid only english char works");
+                                string_input=scanner.nextLine();
+
+                            }
+                            scanner.nextLine();
+                            String userFullName = string_input;
+                            System.out.println("enter your ID it (must be unique one) :  ");
+                            string_input= scanner.nextLine();
 
 
                         } else if (int_input == 3) {
