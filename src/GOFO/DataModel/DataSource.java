@@ -18,7 +18,7 @@ import java.util.List;
  * maybe it will be stored in text file but that is not for sure yet
  * */
 public class DataSource {
-    public static  DataSource dataSource= new DataSource();;
+    public static  DataSource dataSource= new DataSource();
     List<Player> players;
 
     public static DataSource getInstance() {

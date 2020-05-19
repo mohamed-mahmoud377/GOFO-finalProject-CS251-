@@ -47,7 +47,7 @@ public class Main {
                                 string_input=scanner.nextLine();
 
                             }
-                            String userFullName = string_input;
+                            String playerFullName = string_input;
 //                            scanner.nextLine();
                             System.out.println("enter your ID it (must be unique one) :  ");
                             string_input= scanner.nextLine();
@@ -57,18 +57,33 @@ public class Main {
 
                             }
                             System.out.println("accepted \n your ID is : " + string_input);
-                            String userID= string_input;
+                            String PlayerID= string_input;
 //                            scanner.nextLine();
+                            System.out.println("enter you password :");
+                            string_input= scanner.nextLine();
+                            while(!currentPlayer.signUp_password(string_input)){
+                                System.out.println("the password you entered is not valid \n" +
+                                        "add at least one number and one capital alphabet ");
+                                string_input=scanner.nextLine();
+
+                            }
+
                             while(true){
                             System.out.println("enter your Gmail : ");
 //                            scanner.nextLine();
                             string_input= scanner.nextLine();
-                            while(!Verify.isValid(string_input)){
+                            while(!currentPlayer.signUp_Email(string_input)){
                                 System.out.println("the entered email is not valid");
+                                System.out.println("enter you Gmail :");
                                 string_input = scanner.nextLine();
                             }
                                 System.out.println("sending");
-                            Verify.send_verify_code(string_input,userFullName);
+                            while(!Verify.send_verify_code(string_input,playerFullName)){
+                                System.out.println("something went wrong check you internet connection or try to enter the email again");
+                                System.out.println("enter you Gmail :");
+                                string_input = scanner.nextLine();
+
+                            }
                             System.out.println("a verification code is sent to your email");
                             System.out.println("[1] enter the code");
                             System.out.println("[2] resent ");

@@ -16,10 +16,7 @@ import javax.mail.internet.MimeMessage;
 public class Verify {
     static Random rand ;
     static  int rand_int1 ;
-    public static boolean isValid(String email) {
-        String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$";
-        return email.matches(regex);
-    }
+
     public static boolean send_verify_code(String email,String name) {
         rand = new Random();
         rand_int1 = rand.nextInt(10000);
@@ -58,7 +55,7 @@ public class Verify {
             return true;
         } catch (
                 MessagingException mex) {
-            mex.printStackTrace();
+//            mex.printStackTrace();
             return false;
         }
 

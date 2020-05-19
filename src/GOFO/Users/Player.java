@@ -3,7 +3,10 @@ package GOFO.Users ;
 import GOFO.DataModel.DataSource;
 import GOFO.Registering.I_LogIn;
 import GOFO.Registering.I_SignUp;
+import GOFO.verification.Verify;
+
 import  java.lang.Character;
+import java.util.Scanner;
 
 import static java.lang.Character.*;
 
@@ -13,6 +16,8 @@ public class Player extends User implements I_LogIn , I_SignUp {
 
     public Player(){
         super();
+
+
     }
 
     public Player(String ID, String name, String email, String passWord) {
@@ -64,7 +69,16 @@ public class Player extends User implements I_LogIn , I_SignUp {
 
     @Override
     public boolean signUp_Email(String Email) {
-        return false;
+        String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$";
+        return Email.matches(regex);
+
+
+    }
+
+    @Override
+    public boolean signUp_password(String password) {
+        if(password.length()<8)
+            return false;
     }
 
     @Override

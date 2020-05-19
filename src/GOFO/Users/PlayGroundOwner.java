@@ -21,6 +21,11 @@ public class PlayGroundOwner extends User implements I_LogIn, I_SignUp {
     }
 
     @Override
+    public boolean signUp_password(String password) {
+        return false;
+    }
+
+    @Override
     public void create_account() {
 
     }
