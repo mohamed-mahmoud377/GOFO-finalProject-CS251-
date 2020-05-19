@@ -63,7 +63,7 @@ public class Main {
                             string_input= scanner.nextLine();
                             while(!currentPlayer.signUp_password(string_input)){
                                 System.out.println("the password you entered is not valid \n" +
-                                        "add at least one number and one capital alphabet ");
+                                        "add at least one number and one capital alphabet and it is more than 8 character");
                                 string_input=scanner.nextLine();
 
                             }
@@ -96,6 +96,7 @@ public class Main {
 //                                            scanner.nextLine();
                                             continue;
                                         }
+                                        currentPlayer.create_account();
                                         System.out.println(" congratulations ! \nyou have registered successfully ");
                                         break;
 
