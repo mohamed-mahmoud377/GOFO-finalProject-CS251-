@@ -72,6 +72,7 @@ public class Player extends User implements I_LogIn , I_SignUp {
     @Override
     public boolean signUp_Email(String Email) {
         String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$";
+        this.Email = Email;
         return Email.matches(regex);
 
 
@@ -98,5 +99,10 @@ public class Player extends User implements I_LogIn , I_SignUp {
     public void create_account() {
         DataSource.getInstance().addNewPlayer(this);
 
+    }
+
+    @Override
+    public String toString() {
+        return "name : " +name+ " ID :" + ID + " Email : "+ Email + " password" + passWord +"\n";
     }
 }

@@ -1,6 +1,7 @@
 
 package GOFO.DataModel;
 
+import GOFO.Users.PlayGroundOwner;
 import GOFO.Users.Player;
 
 import java.util.ArrayList;
@@ -20,6 +21,7 @@ import java.util.List;
 public class DataSource {
     public static  DataSource dataSource= new DataSource();
     List<Player> players;
+    List<PlayGroundOwner> owners;
 
     public static DataSource getInstance() {
 
@@ -29,6 +31,7 @@ public class DataSource {
 
     private DataSource (){
         players = new ArrayList<Player>();
+        owners = new ArrayList<PlayGroundOwner>();
 
     }
     public  boolean  check_player_ID_if_valid(String ID){
@@ -61,8 +64,16 @@ public class DataSource {
         players.add(player5);
 
     }
+    public void hard_coded_Owners(){
+
+    }
     public void addNewPlayer(Player newPlayer){
         players.add(newPlayer);
+    }
+    public void printPlayers(){
+        for(Player i : players){
+            System.out.println(i);
+        }
     }
 
 

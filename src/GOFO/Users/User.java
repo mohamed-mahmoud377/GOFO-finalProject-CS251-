@@ -19,7 +19,7 @@ public class User {
         this.ID = ID;
         this.name = name;
         Email = email;
-        passWord = passWord;
+        this.passWord = passWord;
     }
     public String getID() {
         return ID;
