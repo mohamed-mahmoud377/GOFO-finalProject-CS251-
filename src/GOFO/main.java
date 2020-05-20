@@ -73,7 +73,7 @@ public class Main {
         System.out.println("Password :");
         string_input = scanner.nextLine();
         String userPassword= string_input;
-        while(DataSource.getInstance().checkInfo(userID,userPassword)){
+        while(!DataSource.getInstance().checkInfo(userID,userPassword)){
             System.out.println("you user name or pass word is incorrect ");
             System.out.println("ID :");
             string_input = scanner.nextLine();

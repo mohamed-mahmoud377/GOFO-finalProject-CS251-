@@ -96,8 +96,8 @@ public class DataSource implements I_LogIn {
         }
     }
     public void hardCodedUsers(){
-        Player player1 = new Player("jerry377","mohamed ali","jerry ",";roma");
-        Player player2 = new Player("snoopy","mohamed mahmoud","jerry ",";roma");
+        Player player1 = new Player("jerry377","mohamed ali","jerry ","roma");
+        Player player2 = new Player("snoopy","mohamed mahmoud","jerry ","roma22");
 
         Player player3 = new Player("free_for_all","Mustafa hatem","jerry ",";roma");
 
@@ -105,8 +105,8 @@ public class DataSource implements I_LogIn {
         Player player5 = new Player("jerry33","mohamed mahmoud","jerry ",";roma");
         PlayGroundOwner owner1 = new PlayGroundOwner("jerry","roma","jerry@gamil.con","Asa7be,com");
         PlayGroundOwner owner2 = new PlayGroundOwner("roma","roma","jerry@gamil.con","Asa7be,com");
-        PlayGroundOwner owner3 = new PlayGroundOwner("snoopy","roma","jerry@gamil.con","Asa7be,com");
-        PlayGroundOwner owner4 = new PlayGroundOwner("aagamer","roma","jerry@gamil.con","Asa7be,com");
+        PlayGroundOwner owner3 = new PlayGroundOwner("snooopy","roma","jerry@gamil.con","Asa7be,com");
+        PlayGroundOwner owner4 = new PlayGroundOwner("aagsdfamer","roma","jerry@gamil.con","Asa7be,com");
         PlayGroundOwner owner5 = new PlayGroundOwner("wahet ever","roma","jerry@gamil.con","Asa7be,com");
         users.add(player1);
         users.add(player2);
