@@ -59,23 +59,11 @@ public class Main {
                     scanner.nextLine();
 
 
-
-
-
-
-
-
-
-
-
                 }
             }while(true){
                 if(currentUser.getType().equals("Player")){
                     System.out.println("this is player profile");
                 }else if(currentUser.getType().equals("Owner")){
-
-
-
 
 
 
@@ -257,13 +245,122 @@ public class Main {
         }
         System.out.println("enter you address");
         string_input=scanner.nextLine();
+        currentOwner.signUp_address(string_input);
 
 
-/**
- * jerry basha
- */
+        System.out.println("enter you PlayGround info");
 
 
-        return new PlayGroundOwner();
+
+
+
+
+        ///type your code here for signing up the playGround process
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // confirming the eamil address would be the last thing of the signing up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        while(true){
+            System.out.println("enter your Gmail : ");
+//                            scanner.nextLine();
+            string_input= scanner.nextLine();
+            while(!currentOwner.signUp_Email(string_input)){
+                System.out.println("the entered email is not valid");
+                System.out.println("enter you Gmail :");
+                string_input = scanner.nextLine();
+            }
+            System.out.println("sending");
+            while(!Verify.send_verify_code(string_input,playerFullName)){
+                System.out.println("something went wrong check you internet connection or try to enter the email again");
+                System.out.println("enter you Gmail :");
+                string_input = scanner.nextLine();
+
+            }
+            System.out.println("a verification code is sent to your email");
+            System.out.println("[1] enter the code");
+            System.out.println("[2] resent ");
+            int_input= scanner1.nextInt();
+            if(int_input==1){
+                System.out.println("code :");
+                int_input = scanner1.nextInt();
+                if(!Verify.check_validation_code(int_input)){
+                    System.out.println("the verification code is wrong please enter the Email again");
+//                                            scanner.nextLine();
+                    continue;
+                }
+                currentOwner.create_account();
+                System.out.println(" congratulations ! \nyou have registered successfully ");
+                DataSource.getInstance().printUsers();
+                break;
+
+
+
+            }else if(int_input ==2){
+                continue;
+
+            }else {
+                System.out.println("enter a valid value !");
+            }
+        }
+
+
+
+
+
+     return new PlayGroundOwner();
     }
 }
