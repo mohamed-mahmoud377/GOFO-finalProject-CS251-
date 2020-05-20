@@ -87,8 +87,8 @@ public class DataSource implements I_LogIn {
 
 
     }
-    public void addNewUser(Player newPlayer){
-        users.add(newPlayer);
+    public void addNewUser(User newUser){
+        users.add(newUser);
     }
     public void printUsers(){
         for(User i :users){
@@ -127,12 +127,20 @@ public class DataSource implements I_LogIn {
         if(ID.equals("admin") && password.equals("admin")){
             loggedInUser =  admin;
             return true;
-
         }
+        for(User i:users){
+            if(i.getID().equals(ID)){
+                if(i.getPassWord().equals(password)){
+                    loggedInUser = i;
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     @Override
-    public boolean logIn() {
-        return false;
+    public User logIn() {
+        return loggedInUser;
     }
 }
