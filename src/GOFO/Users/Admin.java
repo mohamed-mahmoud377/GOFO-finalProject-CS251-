@@ -4,10 +4,6 @@ import GOFO.Registering.I_LogIn;
 import GOFO.Registering.I_SignUp;
 
 public class Admin extends User  {
-    @Override
-    public boolean signUp_name(String name) {
-        return false;
-    }
 
     public Admin() {
         super();

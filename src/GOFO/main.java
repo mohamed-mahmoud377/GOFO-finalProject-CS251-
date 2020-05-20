@@ -6,6 +6,7 @@ import GOFO.Users.PlayGroundOwner;
 import GOFO.Users.Player;
 import GOFO.Users.User;
 import GOFO.verification.Verify;
+import org.w3c.dom.ls.LSOutput;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -35,6 +36,7 @@ public class Main {
                         int_input = scanner.nextInt();
 
                         if (int_input==1){
+                             currentUser =userLogIn();
 
 
 
@@ -67,13 +69,26 @@ public class Main {
         Scanner scanner1 = new Scanner(System.in);
         System.out.println("ID :");
         string_input = scanner.nextLine();
-        String playerID = string_input;
+        String userID = string_input;
         System.out.println("Password :");
         string_input = scanner.nextLine();
-        String playerPassword= string_input;
+        String userPassword= string_input;
+        while(!DataSource.getInstance().checkInfo(userID,userPassword)){
+            System.out.println("you user name or pass word is incorrect ");
+            System.out.println("ID :");
+            string_input = scanner.nextLine();
+             userID = string_input;
+            System.out.println("Password :");
+            string_input = scanner.nextLine();
+             userPassword= string_input;
+        }
+        User loggedInUser =DataSource.getInstance().logIn();
+        System.out.println("Logged in successfully");
+
+//
 
 
-        return new User ();
+        return loggedInUser;
     }
 //    public static  PlayGroundOwner ownerLogIn(){
 //        return  new PlayGroundOwner();

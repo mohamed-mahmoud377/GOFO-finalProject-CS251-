@@ -87,8 +87,8 @@ public class DataSource implements I_LogIn {
 
 
     }
-    public void addNewUser(Player newPlayer){
-        users.add(newPlayer);
+    public void addNewUser(User newUser){
+        users.add(newUser);
     }
     public void printUsers(){
         for(User i :users){
@@ -96,8 +96,8 @@ public class DataSource implements I_LogIn {
         }
     }
     public void hardCodedUsers(){
-        Player player1 = new Player("jerry377","mohamed ali","jerry ",";roma");
-        Player player2 = new Player("snoopy","mohamed mahmoud","jerry ",";roma");
+        Player player1 = new Player("jerry377","mohamed ali","jerry ","roma");
+        Player player2 = new Player("snoopy","mohamed mahmoud","jerry ","roma22");
 
         Player player3 = new Player("free_for_all","Mustafa hatem","jerry ",";roma");
 
@@ -105,8 +105,8 @@ public class DataSource implements I_LogIn {
         Player player5 = new Player("jerry33","mohamed mahmoud","jerry ",";roma");
         PlayGroundOwner owner1 = new PlayGroundOwner("jerry","roma","jerry@gamil.con","Asa7be,com");
         PlayGroundOwner owner2 = new PlayGroundOwner("roma","roma","jerry@gamil.con","Asa7be,com");
-        PlayGroundOwner owner3 = new PlayGroundOwner("snoopy","roma","jerry@gamil.con","Asa7be,com");
-        PlayGroundOwner owner4 = new PlayGroundOwner("aagamer","roma","jerry@gamil.con","Asa7be,com");
+        PlayGroundOwner owner3 = new PlayGroundOwner("snooopy","roma","jerry@gamil.con","Asa7be,com");
+        PlayGroundOwner owner4 = new PlayGroundOwner("aagsdfamer","roma","jerry@gamil.con","Asa7be,com");
         PlayGroundOwner owner5 = new PlayGroundOwner("wahet ever","roma","jerry@gamil.con","Asa7be,com");
         users.add(player1);
         users.add(player2);
@@ -127,12 +127,20 @@ public class DataSource implements I_LogIn {
         if(ID.equals("admin") && password.equals("admin")){
             loggedInUser =  admin;
             return true;
-
         }
+        for(User i:users){
+            if(i.getID().equals(ID)){
+                if(i.getPassWord().equals(password)){
+                    loggedInUser = i;
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 
     @Override
-    public boolean logIn() {
-        return false;
+    public User logIn() {
+        return loggedInUser;
     }
 }
