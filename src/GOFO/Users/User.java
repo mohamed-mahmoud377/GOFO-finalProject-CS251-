@@ -11,6 +11,7 @@ public class User {
     String name;
     String Email;
     String passWord;
+    String type;
     public User() {
         this("none","none","none","none");
 

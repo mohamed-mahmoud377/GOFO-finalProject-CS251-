@@ -5,12 +5,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/DataModel/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/DataModel/DataSource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Registering/I_LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Registering/I_LogIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/PlayGroundOwner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/PlayGroundOwner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GOFO/DataModel/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/DataModel/DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/Registering/I_LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Registering/I_LogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/PlayGroundOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/PlayGroundOwner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GOFO/Users/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GOFO/Users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +88,7 @@
       <workItem from="1589835891854" duration="24321000" />
       <workItem from="1589902274555" duration="661000" />
       <workItem from="1589904273567" duration="1580000" />
-      <workItem from="1589916858176" duration="10099000" />
+      <workItem from="1589916858176" duration="15582000" />
     </task>
     <task id="LOCAL-00001" summary="yea whatever">
       <created>1589838106769</created>
@@ -119,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589924619595</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="latest updates">
+      <created>1589926998712</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589926998712</updated>
+    </task>
+    <task id="LOCAL-00007" summary="latest updates">
+      <created>1589927032592</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589927032592</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,18 +156,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="249" y="7" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1589870831655" />
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1589924867428">
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1589942751016">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1589924867428" />
+    <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1589942751016" />
     <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589856792145">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1589856792145" />
-    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1589924618654">
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1589927031561">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589924618654" />
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589927031561" />
     <state x="564" y="303" key="DetectedRootsChooserDialog" timestamp="1589870827872">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -156,22 +176,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589920210005" />
-    <state width="1493" height="162" key="GridCell.Tab.0.bottom" timestamp="1589926536788">
+    <state width="1493" height="83" key="GridCell.Tab.0.bottom" timestamp="1589941589996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589926536788" />
-    <state width="1493" height="162" key="GridCell.Tab.0.center" timestamp="1589926536788">
+    <state width="1493" height="83" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589941589996" />
+    <state width="1493" height="83" key="GridCell.Tab.0.center" timestamp="1589941589996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589926536788" />
-    <state width="1493" height="162" key="GridCell.Tab.0.left" timestamp="1589926536787">
+    <state width="1493" height="83" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589941589996" />
+    <state width="1493" height="83" key="GridCell.Tab.0.left" timestamp="1589941589996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589926536787" />
-    <state width="1493" height="162" key="GridCell.Tab.0.right" timestamp="1589926536788">
+    <state width="1493" height="83" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589941589996" />
+    <state width="1493" height="83" key="GridCell.Tab.0.right" timestamp="1589941589996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589926536788" />
+    <state width="1493" height="83" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589941589996" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1589941192809">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589941192809" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1589941192809">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1589941192809" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1589941192809">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1589941192809" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1589941192809">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1589941192809" />
     <state x="249" y="7" key="SettingsEditor" timestamp="1589920219905">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

@@ -13,7 +13,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        DataSource.getInstance().hard_coded_players();
+        DataSource.getInstance().hardCodedUsers();
             Scanner scanner = new Scanner(System.in);
         Scanner scanner1 = new Scanner(System.in);
 
@@ -34,8 +34,9 @@ public class Main {
                         System.out.println("enter choose :");
                         int_input = scanner.nextInt();
 
-                        if (int_input == 1) {
-                            currentUser = LogingIn();
+                        if (int_input==1){
+
+
 
                         } else if (int_input == 2) {
 
@@ -58,9 +59,26 @@ public class Main {
                 }
             }
     }
-    public static User LogingIn(){
+    public static User userLogIn(){
+//        Player currentPlayer = new Player();
+        String string_input;
+        int int_input = 0;
+        Scanner scanner = new Scanner(System.in);
+        Scanner scanner1 = new Scanner(System.in);
+        System.out.println("ID :");
+        string_input = scanner.nextLine();
+        String playerID = string_input;
+        System.out.println("Password :");
+        string_input = scanner.nextLine();
+        String playerPassword= string_input;
 
+
+        return new User ();
     }
+//    public static  PlayGroundOwner ownerLogIn(){
+//        return  new PlayGroundOwner();
+//
+//    }
     public static Player signing_up(){
         String string_input;
         int int_input = 0;
@@ -129,7 +147,7 @@ public class Main {
                 }
                 currentPlayer.create_account();
                 System.out.println(" congratulations ! \nyou have registered successfully ");
-                DataSource.getInstance().printPlayers();
+                DataSource.getInstance().printUsers();
                 break;
 
 

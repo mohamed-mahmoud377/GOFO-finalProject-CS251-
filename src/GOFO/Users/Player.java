@@ -11,17 +11,20 @@ import java.util.Scanner;
 import static java.lang.Character.*;
 
 
-public class Player extends User implements I_LogIn , I_SignUp {
+public class Player extends User implements  I_SignUp {
 
 
     public Player(){
         super();
+        type = "Player";
 
 
     }
 
     public Player(String ID, String name, String email, String passWord) {
         super(ID, name, email, passWord);
+        type = "Player";
+
     }
 
     /**
@@ -55,7 +58,7 @@ public class Player extends User implements I_LogIn , I_SignUp {
      */
     @Override
     public boolean signUp_ID(String ID) {
-        if( DataSource.getInstance().check_player_ID_if_valid(ID)) {
+        if( DataSource.getInstance().check_User_ID_if_valid(ID)) {
             for (int i = 0; i < ID.length(); i++) {
                 char a = ID.charAt(i);
                 if (!isDefined(a) || isWhitespace(a)) {
@@ -97,12 +100,22 @@ public class Player extends User implements I_LogIn , I_SignUp {
 
     @Override
     public void create_account() {
-        DataSource.getInstance().addNewPlayer(this);
+        DataSource.getInstance().addNewUser(this);
 
     }
 
     @Override
     public String toString() {
-        return "name : " +name+ " ID :" + ID + " Email : "+ Email + " password" + passWord +"\n";
+        return "type "+ type +"name : " +name+ " ID :" + ID + " Email : "+ Email + " password" + passWord +"\n";
     }
+
+//    @Override
+//    public boolean checkInfo(String ID,String password) {
+//        return false;
+//    }
+//
+//    @Override
+//    public boolean logIn() {
+//        return false;
+//    }
 }
