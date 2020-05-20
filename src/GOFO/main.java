@@ -60,6 +60,26 @@ public class Main {
 
                     }
                 }while(true){
+                    if(currentUser.getType().equals("Player")){
+                        System.out.println("this is player profile");
+                    }else if(currentUser.getType().equals("Owner")){
+
+
+
+
+
+                        
+
+                        System.out.println("this is owner profile ");
+
+
+                    }else if(currentUser.getType().equals("Admin")){
+
+
+                        System.out.println("this is admin profile ");
+
+
+                    }
 
                 }
 
@@ -219,6 +239,16 @@ public class Main {
             string_input=scanner.nextLine();
 
         }
+        System.out.println("enter you account number");
+        string_input = scanner.nextLine();
+        while(!currentOwner.signUp_accountNumber(string_input)){
+            System.out.println("something is wrong (number must be 12 digits)");
+            string_input = scanner.nextLine();
+        }
+        System.out.println("enter you address");
+        string_input=scanner.nextLine();
+        
+
 
 
 
