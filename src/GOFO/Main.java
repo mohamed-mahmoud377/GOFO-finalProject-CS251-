@@ -15,64 +15,88 @@ public class Main {
 
     public static void main(String[] args) {
         DataSource.getInstance().hardCodedUsers();
-            Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         Scanner scanner1 = new Scanner(System.in);
 
         String string_input;
-            int int_input = 0;
-            Player currentPlayer = null;
-            PlayGroundOwner currentOwner = null;
-            User currentUser = null;
-            Admin admin = null;
-            while(true) {
-                while (true) {
-                    try {
-                        System.out.println("welcome to GOFO :D\n");
-                        System.out.println("[1] log in");
-                        System.out.println("[2] sing up\n");
-                        System.out.println("[3] want to own a playground ?\n");
+        int int_input = 0;
+        Player currentPlayer = null;
+        PlayGroundOwner currentOwner = null;
+        User currentUser = null;
+        Admin admin = null;
+        while(true) {
+            while (true) {
+                try {
+                    System.out.println("welcome to GOFO :D\n");
+                    System.out.println("[1] log in");
+                    System.out.println("[2] sing up\n");
+                    System.out.println("[3] want to own a playground ?\n");
 
-                        System.out.println("enter choose :");
-                        int_input = scanner.nextInt();
+                    System.out.println("enter choose :");
+                    int_input = scanner.nextInt();
 
-                        if (int_input==1){
-                             currentUser =userLogIn();
+                    if (int_input==1){
+                        currentUser =userLogIn();
+                        break;
 
+                    } else if (int_input == 2) {
 
-
-                        } else if (int_input == 2) {
-
-                            currentUser= signing_up();
-
-
-                        } else if (int_input == 3) {
+                        currentUser= player_signing_up();
+                        break;
 
 
-
-                        } else {
-                            System.out.println("please enter a valid integer input ");
-                        }
+                    } else if (int_input == 3) {
+                        currentUser = owner_signing_up();
 
 
-                    } catch (InputMismatchException e) {
-                        System.out.println("sorry you entered a wrong input  \n");
-                        scanner.nextLine();
-
-
-
-
-
-
-
-
-
-
-                        
+                    } else {
+                        System.out.println("please enter a valid integer input ");
                     }
+
+
+                } catch (InputMismatchException e) {
+                    System.out.println("sorry you entered a wrong input  \n");
+                    scanner.nextLine();
+
+
+
+
+
+
+
+
+
+
+
+                }
+            }while(true){
+                if(currentUser.getType().equals("Player")){
+                    System.out.println("this is player profile");
+                }else if(currentUser.getType().equals("Owner")){
+
+
+
+
+
+
+
+                    System.out.println("this is owner profile ");
+
+
+                }else if(currentUser.getType().equals("Admin")){
+
+
+                    System.out.println("this is admin profile ");
+
 
                 }
 
             }
+
+
+
+
+        }
     }
     public static User userLogIn(){
 //        Player currentPlayer = new Player();
@@ -90,10 +114,10 @@ public class Main {
             System.out.println("you user name or pass word is incorrect ");
             System.out.println("ID :");
             string_input = scanner.nextLine();
-             userID = string_input;
+            userID = string_input;
             System.out.println("Password :");
             string_input = scanner.nextLine();
-             userPassword= string_input;
+            userPassword= string_input;
         }
         User loggedInUser =DataSource.getInstance().logIn();
         System.out.println("Logged in successfully");
@@ -103,11 +127,8 @@ public class Main {
 
         return loggedInUser;
     }
-//    public static  PlayGroundOwner ownerLogIn(){
-//        return  new PlayGroundOwner();
-//
-//    }
-    public static Player signing_up(){
+
+    public static Player player_signing_up(){
         String string_input;
         int int_input = 0;
         Scanner scanner = new Scanner(System.in);
@@ -188,6 +209,61 @@ public class Main {
             }
         }
 
-    return currentPlayer;
+        return currentPlayer;
+    }
+
+    public static PlayGroundOwner owner_signing_up(){
+        String string_input;
+        int int_input = 0;
+        Scanner scanner = new Scanner(System.in);
+        Scanner scanner1 = new Scanner(System.in);
+        PlayGroundOwner currentOwner = new PlayGroundOwner();
+//        scanner.nextLine();//clean the buffer
+        System.out.println("enter your full name ");
+        string_input=scanner.nextLine();
+
+        while(!currentOwner.signUp_name(string_input)){
+            //while get into this loop if the user entered a wrong user name
+            //only char works
+            System.out.println("the name entered is not valid only english char works");
+            string_input=scanner.nextLine();
+
+        }
+        String playerFullName = string_input;
+//                            scanner.nextLine();
+        System.out.println("enter your ID it (must be unique one) :  ");
+        string_input= scanner.nextLine();
+        while(!currentOwner.signUp_ID(string_input)){
+            System.out.println("the ID you entered is not valid or maybe taken");
+            string_input=scanner.nextLine();
+
+        }
+        System.out.println("accepted \n your ID is : " + string_input);
+        String PlayerID= string_input;
+//                            scanner.nextLine();
+        System.out.println("enter you password :");
+        string_input= scanner.nextLine();
+        while(!currentOwner.signUp_password(string_input)){
+            System.out.println("the password you entered is not valid \n" +
+                    "add at least one number and one capital alphabet and it is more than 8 character");
+            string_input=scanner.nextLine();
+
+        }
+        System.out.println("enter you account number");
+        string_input = scanner.nextLine();
+        while(!currentOwner.signUp_accountNumber(string_input)){
+            System.out.println("something is wrong (number must be 12 digits)");
+            string_input = scanner.nextLine();
+        }
+        System.out.println("enter you address");
+        string_input=scanner.nextLine();
+
+
+/**
+ * jerry
+ */
+
+
+        return new PlayGroundOwner();
     }
 }
