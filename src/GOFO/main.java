@@ -58,6 +58,16 @@ public class Main {
                         System.out.println("sorry you entered a wrong input  \n");
                         scanner.nextLine();
 
+
+
+
+
+
+
+
+
+
+                        
                     }
                 }while(true){
                     if(currentUser.getType().equals("Player")){
