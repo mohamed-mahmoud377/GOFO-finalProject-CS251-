@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21ea433d-c8bb-4680-a2bb-bb0db1902d6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/DataModel/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/DataModel/DataSource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GOFO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Registering/I_LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Registering/I_LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/Admin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +74,7 @@
       <workItem from="1589835891854" duration="24321000" />
       <workItem from="1589902274555" duration="661000" />
       <workItem from="1589904273567" duration="1580000" />
-      <workItem from="1589916858176" duration="16662000" />
+      <workItem from="1589916858176" duration="17323000" />
     </task>
     <task id="LOCAL-00001" summary="yea whatever">
       <created>1589838106769</created>
@@ -136,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589943031358</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="latest updates">
+      <created>1589944139694</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589944139694</updated>
+    </task>
+    <task id="LOCAL-00010" summary="latest updates">
+      <created>1589944165499</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589944165499</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,10 +171,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1589856792145" />
-    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1589943029635">
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1589944164147">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589943029635" />
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589944164147" />
     <state x="564" y="303" key="DetectedRootsChooserDialog" timestamp="1589870827872">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
