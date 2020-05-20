@@ -3,10 +3,11 @@ package GOFO.Users;
 import GOFO.DataModel.DataSource;
 import GOFO.Registering.I_LogIn;
 import GOFO.Registering.I_SignUp;
+import GOFO.Registering.I_UdataInfo;
 
 import static java.lang.Character.*;
 
-public class PlayGroundOwner extends User implements  I_SignUp {
+public class PlayGroundOwner extends User implements  I_SignUp , I_UdataInfo {
     String accountNumber;
     String address;
     public void signUp_address(String address){

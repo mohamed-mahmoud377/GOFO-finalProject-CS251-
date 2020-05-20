@@ -3,6 +3,7 @@ package GOFO.Users ;
 import GOFO.DataModel.DataSource;
 import GOFO.Registering.I_LogIn;
 import GOFO.Registering.I_SignUp;
+import GOFO.Registering.I_UdataInfo;
 import GOFO.verification.Verify;
 
 import  java.lang.Character;
@@ -11,7 +12,7 @@ import java.util.Scanner;
 import static java.lang.Character.*;
 
 
-public class Player extends User implements  I_SignUp {
+public class Player extends User implements  I_SignUp , I_UdataInfo {
 
 
     public Player(){
@@ -107,6 +108,16 @@ public class Player extends User implements  I_SignUp {
     @Override
     public String toString() {
         return "type "+ type +"name : " +name+ " ID :" + ID + " Email : "+ Email + " password" + passWord +"\n";
+    }
+
+    @Override
+    public boolean chanceName(String name) {
+        return false;
+    }
+
+    @Override
+    public boolean chancePassword(String password) {
+        return false;
     }
 
 //    @Override
