@@ -111,6 +111,16 @@ public class PlayGroundOwner extends User implements  I_SignUp , I_UdataInfo {
         return "type "+ type +"name : " +name+ " ID :" + ID + " Email : "+ Email + " password" + passWord +"\n";
 
     }
+
+    @Override
+    public boolean chanceName(String name) {
+        return false;
+    }
+
+    @Override
+    public boolean chancePassword(String password) {
+        return false;
+    }
     //    @Override
 //    public boolean checkInfo(String ID,String password) {
 //        return false;

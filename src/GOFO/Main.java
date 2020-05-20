@@ -22,7 +22,7 @@ public class Main {
         int int_input = 0;
         Player currentPlayer = null;
         PlayGroundOwner currentOwner = null;
-        User currentUser = null;
+        User currentUser =null;
         Admin admin = null;
         while(true) {
             while (true) {
@@ -56,13 +56,44 @@ public class Main {
 
                 } catch (InputMismatchException e) {
                     System.out.println("sorry you entered a wrong input  \n");
-                    scanner.nextLine();
+                    scanner1.nextLine();
 
 
                 }
-            }while(true){
+            }
+            while(true){
                 if(currentUser.getType().equals("Player")){
-                    System.out.println("this is player profile");
+                    System.out.println("this is player profile \n");
+                    System.out.println("welcome back "+ currentUser.getName()+"\n");
+                    System.out.println("[1] Manage booking");
+                    System.out.println("[2] Manage teams");
+                    System.out.println("[3] Mange invitations");
+                    System.out.println("[4] Update INFO");
+                    System.out.println("[5] log out");
+
+                    int_input = scanner1.nextInt();
+                    if(int_input==1){
+
+                    }else if(int_input==2){
+
+                    }else if(int_input==3) {
+
+                    }else{
+
+                    }
+                    System.out.println("[1] book a playground ");
+                    System.out.println("[2] view booking ");
+                    System.out.println("[3] cancel booking]");
+                    System.out.println("[4] create team");
+                    System.out.println("[5] view my team");
+                    System.out.println("[6] view my joined teams");
+                    System.out.println("[7] view invitations ");
+                    System.out.println("[8] sent invitations");
+
+
+
+                    break;
+
                 }else if(currentUser.getType().equals("Owner")){
 
 
@@ -71,17 +102,17 @@ public class Main {
                     System.out.println("this is owner profile ");
 
 
+
                 }else if(currentUser.getType().equals("Admin")){
 
 
                     System.out.println("this is admin profile ");
+                    break;
 
 
                 }
 
             }
-
-
 
 
         }

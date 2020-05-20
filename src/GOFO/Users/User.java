@@ -23,6 +23,7 @@ public class User {
 
     public User() {
         this("none","none","none","none");
+        this.type= "none";
 
     }
     public User(String ID, String name, String email, String passWord) {

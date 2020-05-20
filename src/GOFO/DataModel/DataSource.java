@@ -1,6 +1,7 @@
 
 package GOFO.DataModel;
 
+import GOFO.OwnersData.Team;
 import GOFO.Registering.I_LogIn;
 import GOFO.Users.Admin;
 import GOFO.Users.PlayGroundOwner;
@@ -25,9 +26,15 @@ public class DataSource implements I_LogIn {
     public static  DataSource dataSource= new DataSource();
     Admin admin ;
     User loggedInUser;
+    Team teamSelected;
     List<User> users;
+    List<Team> teams;
 
-
+    /**@author mohamed moahmoud
+     *
+     * @return datsource  which is the only calss objcet
+     *  void lkjsd;flkjasd;f;asldkjf
+     */
     public static DataSource getInstance() {
 
         return dataSource;
@@ -35,12 +42,21 @@ public class DataSource implements I_LogIn {
 
 
     private DataSource (){
-
+        teamSelected=null;
+        teams = new ArrayList<Team>();
         users= new ArrayList<User>();
         admin = new Admin("admin","admin","admin@gmail.com","admin");
 
     }
-    public  boolean  check_User_ID_if_valid(String ID){
+    public boolean checkTeamIDIfValid(String ID){
+        for( Team i: teams){
+            if(i.getID().equals(ID))
+                return false;
+        }
+        return  true;
+    }
+
+    public  boolean  checkUserIDIfValid(String ID){
         for(User i: users){
             if(ID.equals(i.getID())){
                 return false;
@@ -55,10 +71,12 @@ public class DataSource implements I_LogIn {
      * @author jerr
      *
      * */
-
-
     public void addNewUser(User newUser){
         users.add(newUser);
+    }
+    public void addNewTeam(Team newTeam){
+        teams.add(newTeam);
+
     }
     public void printUsers(){
         for(User i :users){
@@ -66,23 +84,36 @@ public class DataSource implements I_LogIn {
         }
     }
     public void hardCodedUsers(){
-        Player player1 = new Player("jerry377","mohamed ali","jerry ","roma");
-        Player player2 = new Player("snoopy","mohamed mahmoud","jerry ","roma22");
+        Player player1 = new Player("jerry11","mohamed ali","jerry ","roma");
+        Player player2 = new Player("snoopy22","mohamed mahmoud","jerry ","roma22");
 
-        Player player3 = new Player("free_for_all","Mustafa hatem","jerry ",";roma");
+        Player player3 = new Player("free_for_all11","Mustafa hatem","jerry ",";roma");
 
-        Player player4 = new Player("killer","mohamed mahmoud","jerry ",";roma");
-        Player player5 = new Player("jerry33","mohamed mahmoud","jerry ",";roma");
-        PlayGroundOwner owner1 = new PlayGroundOwner("jerry","roma","jerry@gamil.con","Asa7be,com");
+        Player player4 = new Player("fresll","mohamed mahmoud","jerry ",";roma");
+        Player player5 = new Player("whatthefuck","mohamed mahmoud","jerry ",";roma");
+        Player player6 = new Player("gamer","mohamed ali","jerry ","roma");
+        Player player7 = new Player("snower","mohamed mahmoud","jerry ","roma22");
+
+        Player player8 = new Player("free_for_all","Mustafa hatem","jerry ",";roma");
+
+        Player player9 = new Player("killer","mohamed mahmoud","jerry ",";roma");
+        Player player10 = new Player("jerry33","mohamed mahmoud","jerry ",";roma");
+        PlayGroundOwner owner1 = new PlayGroundOwner("jerry","roma","jerry@gamil.conm","Asa7be,com");
+
         PlayGroundOwner owner2 = new PlayGroundOwner("roma","roma","jerry@gamil.con","Asa7be,com");
         PlayGroundOwner owner3 = new PlayGroundOwner("snooopy","roma","jerry@gamil.con","Asa7be,com");
         PlayGroundOwner owner4 = new PlayGroundOwner("aagsdfamer","roma","jerry@gamil.con","Asa7be,com");
-        PlayGroundOwner owner5 = new PlayGroundOwner("wahet ever","roma","jerry@gamil.con","Asa7be,com");
+        PlayGroundOwner owner5 = new PlayGroundOwner("wahetever","roma","jerry@gamil.con","Asa7be,com");
         users.add(player1);
         users.add(player2);
         users.add(player3);
         users.add(player4);
         users.add(player5);
+        users.add(player6);
+        users.add(player7);
+        users.add(player8);
+        users.add(player9);
+        users.add(player10);
         users.add(owner1);
         users.add(owner2);
         users.add(owner3);

@@ -1,23 +1,29 @@
 package GOFO.Users ;
 
 import GOFO.DataModel.DataSource;
+import GOFO.OwnersData.Team;
 import GOFO.Registering.I_LogIn;
 import GOFO.Registering.I_SignUp;
 import GOFO.Registering.I_UdataInfo;
 import GOFO.verification.Verify;
 
 import  java.lang.Character;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 import static java.lang.Character.*;
 
 
 public class Player extends User implements  I_SignUp , I_UdataInfo {
+    String myTeamID;
+    List<String> joinedTeamsIDs;
 
 
     public Player(){
         super();
         type = "Player";
+        joinedTeamsIDs = new ArrayList<String>();
 
 
     }
@@ -25,6 +31,8 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
     public Player(String ID, String name, String email, String passWord) {
         super(ID, name, email, passWord);
         type = "Player";
+        joinedTeamsIDs = new ArrayList<String>();
+
 
     }
 
@@ -59,7 +67,7 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
      */
     @Override
     public boolean signUp_ID(String ID) {
-        if( DataSource.getInstance().check_User_ID_if_valid(ID)) {
+        if( DataSource.getInstance().checkUserIDIfValid(ID)) {
             for (int i = 0; i < ID.length(); i++) {
                 char a = ID.charAt(i);
                 if (!isDefined(a) || isWhitespace(a)) {
@@ -111,6 +119,11 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
     }
 
     @Override
+    public String getType() {
+      return type;
+    }
+
+    @Override
     public boolean chanceName(String name) {
         return false;
     }
@@ -120,13 +133,4 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
         return false;
     }
 
-//    @Override
-//    public boolean checkInfo(String ID,String password) {
-//        return false;
-//    }
-//
-//    @Override
-//    public boolean logIn() {
-//        return false;
-//    }
 }
