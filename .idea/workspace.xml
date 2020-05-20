@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21ea433d-c8bb-4680-a2bb-bb0db1902d6d" name="Default Changelist" comment="">
+    <list default="true" id="21ea433d-c8bb-4680-a2bb-bb0db1902d6d" name="Default Changelist" comment="latest updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/DataModel/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/DataModel/DataSource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Main.class" afterDir="false" />
@@ -38,6 +38,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1c64pFQEIjO0d3TQgavPsg925wb" />
   <component name="ProjectLevelVcsManager">
@@ -50,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -57,6 +59,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -164,18 +167,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1589856792145" />
-    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1589927031561">
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1589946772792">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589927031561" />
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589946772792" />
     <state x="564" y="303" key="DetectedRootsChooserDialog" timestamp="1589870827872">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="564" y="303" key="DetectedRootsChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1589870827872" />
-    <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1589920210005">
+    <state x="252" y="52" key="DiffContextDialog" timestamp="1589946759825">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589920210005" />
+    <state x="252" y="52" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1589946759825" />
+    <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1589946924591">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589946924591" />
     <state width="1493" height="83" key="GridCell.Tab.0.bottom" timestamp="1589941589996">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -208,14 +215,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1589941192809" />
-    <state x="249" y="7" key="SettingsEditor" timestamp="1589920219905">
+    <state x="110" y="69" key="SettingsEditor" timestamp="1589946926017">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589920219905" />
-    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589849899708">
+    <state x="110" y="69" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589946926017" />
+    <state x="470" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1589946641787">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1589849899708" />
+    <state x="470" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1589946641787" />
+    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589944791504">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1589944791504" />
     <state x="209" y="53" key="new project wizard" timestamp="1589858820274">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
