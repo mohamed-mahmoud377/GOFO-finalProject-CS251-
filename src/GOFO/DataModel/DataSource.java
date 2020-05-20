@@ -35,6 +35,7 @@ public class DataSource implements I_LogIn {
 
 
     private DataSource (){
+
         users= new ArrayList<User>();
         admin = new Admin("admin","admin","admin@gmail.com","admin");
 
@@ -54,6 +55,7 @@ public class DataSource implements I_LogIn {
      * @author jerr
      *
      * */
+
 
     public void addNewUser(User newUser){
         users.add(newUser);
