@@ -36,7 +36,7 @@ public class Main {
                         int_input = scanner.nextInt();
 
                         if (int_input==1){
-
+                             currentUser =userLogIn();
 
 
 
