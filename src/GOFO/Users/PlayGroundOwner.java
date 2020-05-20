@@ -7,6 +7,23 @@ import GOFO.Registering.I_SignUp;
 import static java.lang.Character.*;
 
 public class PlayGroundOwner extends User implements  I_SignUp {
+    String accountNumber;
+    String address;
+    public void signUp_address(String address){
+        this.address=address;
+    }
+    public boolean signUp_accountNumber(String accountNumber){
+        if(!(accountNumber.length()==12))
+            return false;
+        for (int i=0;i<accountNumber.length();i++){
+            if(!isDigit(accountNumber.charAt(i))){
+                return false;
+            }
+        }
+        this.accountNumber=accountNumber;
+        return true;
+
+    }
 
     @Override
     public boolean signUp_name(String name) {
@@ -48,6 +65,14 @@ public class PlayGroundOwner extends User implements  I_SignUp {
         }
         this.ID = ID;
         return true;
+    }
+
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(String accountNumber) {
+        this.accountNumber = accountNumber;
     }
 
     @Override
