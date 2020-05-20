@@ -1,13 +1,25 @@
 package GOFO.Users;
 
+import GOFO.DataModel.DataSource;
 import GOFO.Registering.I_LogIn;
 import GOFO.Registering.I_SignUp;
+
+import static java.lang.Character.*;
 
 public class PlayGroundOwner extends User implements  I_SignUp {
 
     @Override
     public boolean signUp_name(String name) {
-        return false;
+        name = name.trim();
+        for(int i=0;i<name.length();i++){
+            char a = name.charAt(i);
+            if(!isLetter(a) &&!isWhitespace(a)){
+                return false;
+            }
+
+        }
+        this.name = name;
+        return true;
     }
 
     public PlayGroundOwner() {
@@ -24,22 +36,48 @@ public class PlayGroundOwner extends User implements  I_SignUp {
 
     @Override
     public boolean signUp_ID(String ID) {
-        return false;
+        if( DataSource.getInstance().check_User_ID_if_valid(ID)) {
+            for (int i = 0; i < ID.length(); i++) {
+                char a = ID.charAt(i);
+                if (!isDefined(a) || isWhitespace(a)) {
+                    return false;
+                }
+            }
+        }else {
+            return false;
+        }
+        this.ID = ID;
+        return true;
     }
 
     @Override
     public boolean signUp_Email(String Email) {
-        return false;
+        String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$";
+        this.Email = Email;
+        return Email.matches(regex);
+
     }
 
     @Override
     public boolean signUp_password(String password) {
-        return false;
+        boolean num_check = false;
+        boolean cap_check = false;
+        if(password.length()<8)
+            return false;
+        for(int i=0 ;i<password.length();i++){
+            if(isUpperCase(password.charAt(i)))
+                cap_check = true;
+            if(isDigit(password.charAt(i)))
+                num_check=true;
+
+        }
+        this.passWord = password;
+        return num_check && cap_check;
     }
 
     @Override
     public void create_account() {
-
+        DataSource.getInstance().addNewUser(this);
     }
 
     @Override
