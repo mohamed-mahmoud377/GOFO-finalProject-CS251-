@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21ea433d-c8bb-4680-a2bb-bb0db1902d6d" name="Default Changelist" comment="">
+    <list default="true" id="21ea433d-c8bb-4680-a2bb-bb0db1902d6d" name="Default Changelist" comment="latest updates">
+      <change afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/SnapTube Video/58- Database Normalization - second Normal Form - 2nd NF - Part 4(360P).mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SnapTube Video/58- Database Normalization - second Normal Form - 2nd NF - Part 4(360P).mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/DataModel/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/DataModel/DataSource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Registering/I_LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Registering/I_LogIn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Registering/I_SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Registering/I_SignUp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Admin.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/PlayGroundOwner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/PlayGroundOwner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/DataModel/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/DataModel/DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Registering/I_LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Registering/I_LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/PlayGroundOwner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/PlayGroundOwner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +55,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/java activation/jaf-1.1.1/activation.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -154,23 +154,33 @@
       <option name="presentableId" value="LOCAL؜٠٠٠٠٩" />
       <updated>1589947068240</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL؜٠٠٠١٠" summary="latest updates">
+      <created>1589947394876</created>
+      <option name="number" value="LOCAL؜٠٠٠١٠" />
+      <option name="presentableId" value="LOCAL؜٠٠٠١٠" />
+      <updated>1589947394876</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="yea whatever" />
     <MESSAGE value="latest updates" />
     <option name="LAST_COMMIT_MESSAGE" value="latest updates" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="7" key="#Project_Structure" timestamp="1589870831655">
+    <state x="249" y="7" key="#Project_Structure" timestamp="1589947689748">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="7" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1589870831655" />
+    <state x="249" y="7" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1589947689748" />
     <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1589942751016">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -179,10 +189,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1589856792145" />
-    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1589947347504">
+    <state x="327" y="0" key="CommitChangelistDialog2" timestamp="1589947713067">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589947347504" />
+    <state x="327" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1589947713067" />
     <state x="564" y="303" key="DetectedRootsChooserDialog" timestamp="1589870827872">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -195,22 +205,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589946924591" />
-    <state width="1493" height="83" key="GridCell.Tab.0.bottom" timestamp="1589941589996">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1589948902670">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="83" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589941589996" />
-    <state width="1493" height="83" key="GridCell.Tab.0.center" timestamp="1589941589996">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589948902670" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1589948902670">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="83" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589941589996" />
-    <state width="1493" height="83" key="GridCell.Tab.0.left" timestamp="1589941589996">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589948902670" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1589948902670">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="83" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589941589996" />
-    <state width="1493" height="83" key="GridCell.Tab.0.right" timestamp="1589941589996">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589948902670" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1589948902670">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="83" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589941589996" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589948902670" />
     <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1589941192809">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -231,6 +241,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="481" y="148" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1589947324731" />
+    <state x="423" y="154" key="RollbackChangesDialog" timestamp="1589947778567">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="423" y="154" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1589947778567" />
     <state x="110" y="69" key="SettingsEditor" timestamp="1589946926017">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -239,13 +253,13 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="470" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1589946641787" />
-    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589947278917">
+    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589948934090">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1589947278917" />
-    <state x="209" y="53" key="new project wizard" timestamp="1589858820274">
+    <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1589948934090" />
+    <state x="209" y="53" key="new project wizard" timestamp="1589947851821">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="209" y="53" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1589858820274" />
+    <state x="209" y="53" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1589947851821" />
   </component>
 </project>
