@@ -26,8 +26,7 @@ public class DataSource implements I_LogIn {
     Admin admin ;
     User loggedInUser;
     List<User> users;
-    List<Player> players;
-    List<PlayGroundOwner> owners;
+
 
     public static DataSource getInstance() {
 
@@ -36,8 +35,6 @@ public class DataSource implements I_LogIn {
 
 
     private DataSource (){
-        players = new ArrayList<Player>();
-        owners = new ArrayList<PlayGroundOwner>();
         users= new ArrayList<User>();
         admin = new Admin("admin","admin","admin@gmail.com","admin");
 
@@ -57,36 +54,7 @@ public class DataSource implements I_LogIn {
      * @author jerr
      *
      * */
-    public void hard_coded_players(){
-        Player player1 = new Player("jerry377","mohamed ali","jerry ",";roma");
-        Player player2 = new Player("snoopy","mohamed mahmoud","jerry ",";roma");
 
-        Player player3 = new Player("free_for_all","Mustafa hatem","jerry ",";roma");
-
-        Player player4 = new Player("killer","mohamed mahmoud","jerry ",";roma");
-        Player player5 = new Player("jerry33","mohamed mahmoud","jerry ",";roma");
-        players.add(player1);
-        players.add(player2);
-        players.add(player3);
-        players.add(player4);
-        players.add(player5);
-
-    }
-    public void hard_coded_Owners(){
-        PlayGroundOwner owner1 = new PlayGroundOwner("jerry","roma","jerry@gamil.con","Asa7be,com");
-        PlayGroundOwner owner2 = new PlayGroundOwner("roma","roma","jerry@gamil.con","Asa7be,com");
-        PlayGroundOwner owner3 = new PlayGroundOwner("snoopy","roma","jerry@gamil.con","Asa7be,com");
-        PlayGroundOwner owner4 = new PlayGroundOwner("aagamer","roma","jerry@gamil.con","Asa7be,com");
-        PlayGroundOwner owner5 = new PlayGroundOwner("wahet ever","roma","jerry@gamil.con","Asa7be,com");
-        owners.add(owner1);
-        owners.add(owner2);
-        owners.add(owner3);
-        owners.add(owner4);
-        owners.add(owner5);
-
-
-
-    }
     public void addNewUser(User newUser){
         users.add(newUser);
     }
