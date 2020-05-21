@@ -78,6 +78,11 @@ public class DataSource implements I_LogIn {
         teams.add(newTeam);
 
     }
+    public void printTeams(){
+        for(User i :users){
+            System.out.println(i);
+        }
+    }
     public void printUsers(){
         for(User i :users){
             System.out.println(i);

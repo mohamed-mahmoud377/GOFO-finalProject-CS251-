@@ -54,7 +54,7 @@ public class PlayGroundOwner extends User implements  I_SignUp , I_UdataInfo {
 
     @Override
     public boolean signUp_ID(String ID) {
-        if( DataSource.getInstance().check_User_ID_if_valid(ID)) {
+        if( DataSource.getInstance().checkUserIDIfValid(ID)) {
             for (int i = 0; i < ID.length(); i++) {
                 char a = ID.charAt(i);
                 if (!isDefined(a) || isWhitespace(a)) {

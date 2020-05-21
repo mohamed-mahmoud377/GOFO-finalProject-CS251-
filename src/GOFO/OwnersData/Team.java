@@ -1,11 +1,50 @@
 package GOFO.OwnersData;
 
+import GOFO.DataModel.DataSource;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Team {
-    String ID;
+import static java.lang.Character.isDefined;
+import static java.lang.Character.isWhitespace;
 
+public class Team {
+
+    String ID;
+    String teamLeaderID;
+    List<String> invitedPlayersIDs;
+
+
+
+    public Team(){
+        invitedPlayersIDs = new ArrayList<String>();
+        teamLeaderID = "none";
+        ID= "none";
+    }
+
+    @Override
+    public String toString() {
+        return "Team{" +
+                "ID='" + ID + '\'' +
+                ", teamLeaderID='" + teamLeaderID + '\'' +
+                ", invitedPlayersIDs=" + invitedPlayersIDs +
+                '}';
+    }
+
+    public boolean signUpID(String iD){
+        if( DataSource.getInstance().checkTeamIDIfValid(ID)) {
+            for (int i = 0; i < ID.length(); i++) {
+                char a = ID.charAt(i);
+                if (!isDefined(a) || isWhitespace(a)) {
+                    return false;
+                }
+            }
+        }else {
+            return false;
+        }
+        this.ID = ID;
+        return true;
+    }
     public String getID() {
         return ID;
     }
@@ -14,8 +53,7 @@ public class Team {
         this.ID = ID;
     }
 
-    String teamLeaderID;
-    List<String> invitedPlayersIDs;
+
 
 
 
@@ -31,8 +69,5 @@ public class Team {
         this.teamLeaderID = teamLeaderID;
     }
 
-    public Team(){
-        invitedPlayersIDs = new ArrayList<String>();
-        teamLeaderID = "none";
-    }
+
 }

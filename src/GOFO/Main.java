@@ -1,6 +1,7 @@
 package GOFO;
 
 import GOFO.DataModel.DataSource;
+import GOFO.Profiles.PlayersProfile;
 import GOFO.Users.Admin;
 import GOFO.Users.PlayGroundOwner;
 import GOFO.Users.Player;
@@ -63,6 +64,7 @@ public class Main {
             }
             while(true){
                 if(currentUser.getType().equals("Player")){
+
                     System.out.println("this is player profile \n");
                     System.out.println("welcome back "+ currentUser.getName()+"\n");
                     System.out.println("[1] Manage booking");
@@ -74,7 +76,9 @@ public class Main {
                     int_input = scanner1.nextInt();
                     if(int_input==1){
 
+
                     }else if(int_input==2){
+                        PlayersProfile.MangeTeams((Player) currentUser);
 
                     }else if(int_input==3) {
 

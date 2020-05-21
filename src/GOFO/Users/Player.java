@@ -132,5 +132,10 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
     public boolean chancePassword(String password) {
         return false;
     }
+    public void addMyTeam(Team team){
+         myTeamID = team.getID();
+        DataSource.getInstance().addNewTeam(team);
+
+    }
 
 }
