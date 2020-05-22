@@ -1,16 +1,13 @@
 package GOFO.Users ;
 
 import GOFO.DataModel.DataSource;
-import GOFO.OwnersData.Team;
-import GOFO.Registering.I_LogIn;
+import GOFO.PlayerClasses.Invitation;
+import GOFO.PlayerClasses.Team;
 import GOFO.Registering.I_SignUp;
 import GOFO.Registering.I_UdataInfo;
-import GOFO.verification.Verify;
 
-import  java.lang.Character;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 import static java.lang.Character.*;
 
@@ -18,12 +15,15 @@ import static java.lang.Character.*;
 public class Player extends User implements  I_SignUp , I_UdataInfo {
     String myTeamID;
     List<String> joinedTeamsIDs;
+    List <String> bookingsID;
 
-
+   //constructors
     public Player(){
         super();
         type = "Player";
         joinedTeamsIDs = new ArrayList<String>();
+        myTeamID="none";
+        bookingsID= new ArrayList<String>();
 
 
     }
@@ -32,9 +32,16 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
         super(ID, name, email, passWord);
         type = "Player";
         joinedTeamsIDs = new ArrayList<String>();
+        myTeamID="none";
+        bookingsID= new ArrayList<String>();
+
 
 
     }
+
+
+
+// sgining up
 
     /**
      * @author mohamed mohmoud said
@@ -47,15 +54,15 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
     @Override
     public boolean signUp_name(String name) {
         name = name.trim();
-      for(int i=0;i<name.length();i++){
-          char a = name.charAt(i);
-          if(!isLetter(a) &&!isWhitespace(a)){
-              return false;
-          }
+        for(int i=0;i<name.length();i++){
+            char a = name.charAt(i);
+            if(!isLetter(a) &&!isWhitespace(a)){
+                return false;
+            }
 
-      }
-      this.name = name;
-      return true;
+        }
+        this.name = name;
+        return true;
     }
 
     /**
@@ -113,16 +120,44 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
 
     }
 
-    @Override
-    public String toString() {
-        return "type "+ type +"name : " +name+ " ID :" + ID + " Email : "+ Email + " password" + passWord +"\n";
-    }
 
+    //getters
+
+    public String getMyTeamID() {
+        return myTeamID;
+    }
+    public List<String> getJoinedTeamsIDs() {
+        return joinedTeamsIDs;
+    }
     @Override
     public String getType() {
-      return type;
+        return type;
+    }
+    public Team getMyTeam(){
+        return  DataSource.getInstance().getTeamByPlayerID(ID);
+
     }
 
+
+    //setters
+
+
+    public void setMyTeamID(String myTeamID) {
+        this.myTeamID = myTeamID;
+    }
+
+
+
+    public void setJoinedTeamsIDs(List<String> joinedTeamsIDs) {
+        this.joinedTeamsIDs = joinedTeamsIDs;
+    }
+
+
+
+
+
+
+ //update
     @Override
     public boolean chanceName(String name) {
         return false;
@@ -132,10 +167,34 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
     public boolean chancePassword(String password) {
         return false;
     }
+
+    //adders
+
     public void addMyTeam(Team team){
          myTeamID = team.getID();
         DataSource.getInstance().addNewTeam(team);
 
     }
+    public void addJoinedTeam(String teamID){
+        joinedTeamsIDs.add(teamID);
+    }
+
+ // invitations
+
+    public void sendInvitation(Invitation invitation){
+        invitation.send();
+    }
+    public ArrayList<Invitation> receiveInvitations(){
+        return DataSource.getInstance().getMyReceivedInvitations(ID);
+
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "type "+ type +"name : " +name+ " ID :" + ID + " Email : "+ Email + " password" + passWord +"\n";
+    }
+
 
 }
