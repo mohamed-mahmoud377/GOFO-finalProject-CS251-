@@ -7,12 +7,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Invitation {
-    static int IDNum=0;
-    String ID;
-    String massage;
-    String senderID;
-    String teamInvitedID;
-    List<String> receiversID;
+    private static int IDNum=0;
+    private String ID;
+    private String massage;
+    private String senderID;
+    private String teamInvitedID;
+    private List<String> receiversID;
 
     public static int getIDNum() {
         return IDNum;

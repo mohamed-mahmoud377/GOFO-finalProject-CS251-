@@ -9,16 +9,16 @@ import static java.lang.Character.*;
 
 public class Ground {
 
-    String ID;
-    String name;
-    String description;
-    String address;
-    String OwnerID;
-    int openingTime;
-    int closingTime;
-    int Price ;
-    List<Booking> bookings;
-    boolean isSuspended;
+    private String ID;
+    private String name;
+    private String description;
+    private String address;
+    private String OwnerID;
+    private int openingTime;
+    private int closingTime;
+    private int price ;
+    private List<Booking> bookings;
+    private boolean isSuspended;
 
     public Ground(String ID, String name, String description, String address, int openingTime, int closingTime, int price, List<Booking> bookings, boolean isSuspended) {
         this.ID = ID;
@@ -27,7 +27,7 @@ public class Ground {
         this.address = address;
         this.openingTime = openingTime;
         this.closingTime = closingTime;
-        Price = price;
+        price = price;
         this.bookings = bookings;
         this.isSuspended = isSuspended;
     }
@@ -37,9 +37,22 @@ public class Ground {
         this.name = name;
         this.description = description;
         this.address = address;
-        Price = price;
+        price = price;
         this.bookings = bookings;
         this.isSuspended = isSuspended;
+    }
+
+    public Ground(String ID, String name, String description, String address, String ownerID, int openingTime, int closingTime, int price, boolean isSuspended) {
+        this.ID = ID;
+        this.name = name;
+        this.description = description;
+        this.address = address;
+        OwnerID = ownerID;
+        this.openingTime = openingTime;
+        this.closingTime = closingTime;
+        this.price = price;
+        this.isSuspended = isSuspended;
+        bookings = new ArrayList<Booking>();
     }
     public Ground(){
         this.ID = "none";
@@ -47,7 +60,7 @@ public class Ground {
         this.description = "none";
         this.address = "none";
         this.OwnerID = "none";
-        Price = 0;
+        price = 0;
         this.bookings = new ArrayList<Booking>();
         this.isSuspended = false;
         this.openingTime = -1;
@@ -90,11 +103,11 @@ public class Ground {
     }
 
     public int getPrice() {
-        return Price;
+        return price;
     }
 
     public void setPrice(int price) {
-        Price = price;
+        this.price = price;
     }
 
     public List<Booking> getBookings() {
@@ -165,7 +178,7 @@ public class Ground {
          return true;
      }
      public  boolean signUpOpeningTime(int opening){
-        if(opening>=0 &&opening <=24){
+        if(opening>=0 &&opening <24){
             this.openingTime= opening;
             return true;
         }
@@ -173,7 +186,7 @@ public class Ground {
      }
 
      public boolean signUpClosingTime(int closing){
-        if(closing>=0 &&closing <=24){
+        if(closing>=0 &&closing <24){
             if(closing>openingTime){
                 closingTime = closing;
                 return true;
@@ -181,8 +194,102 @@ public class Ground {
         }
         return false;
      }
+    public boolean signUpPrice(int price) {
+        if(price >0 && price <= 20){
+            this.price = price;
+            return  true;
+        }
+        return false;
+    }
 
-     public boolean book(){
+     public boolean book(int start ,int end,String playerID){
+        boolean s =true ;
+        boolean n =true;
+        int d = end -start;
+                if(!(start>=0 &&start <24))
+                    return false;
+             if(!(end>=0 &&end <24))
+                 return false;
+               if(end<=start)
+                   return false;
+
+                for(Booking i:bookings){
+                    for(int w= start ;w<=end;w++){
+                       if(i.getStartingDate()==w){
+                           s= i.getStartingDate() == end;
+                       }
+                       if(i.getEndingDate()==w){
+                           n =i.getEndingDate()==start;
+                       }
+
+                    }
+
+
+        }
+                if(s &&n){
+                    Booking newBooking = new Booking();
+                    newBooking.setStartingDate(start);
+                    newBooking.setEndingDate(end);
+                    newBooking.setDuration();
+                    newBooking.setPlayerID(playerID);
+                    newBooking.setOwnerID(OwnerID);
+                    newBooking.setPlayGroundID(ID);
+                    newBooking.setPlaygroundName(name);
+                    bookings.add(newBooking);
+
+                }
+
+
+
+     return s &&n;
+     }
+     public void display(){
+
+         System.out.println("Name : " + name +"    owner : " +OwnerID);
+         System.out.println("status : " +(isSuspended ?"suspended" :"not suspended"));
+         System.out.println(" ID :" + ID);
+         System.out.println(" Address : "+ address);
+         System.out.println("Price : " + price);
+         System.out.println("Opening time :" +openingTime+"        Closing time : "+ closingTime);
+
+         System.out.println("taken bookings times : ");
+         for(Booking i : bookings){
+             i.displayForGround();
+         }
+     }
+     public  void addBooking(Booking newBooking){
+        bookings.add(newBooking);
+     }
+     public String getLastBookingID(){
+        return bookings.get(bookings.size()-1).getID();
 
      }
+     public boolean checkBooking(int start , int end){
+         boolean s =true ;
+         boolean n =true;
+         int d = end -start;
+         if(!(start>=0 &&start <24))
+             return false;
+         if(!(end>=0 &&end <24))
+             return false;
+         if(end<=start)
+             return false;
+
+         for(Booking i:bookings){
+             for(int w= start ;w<=end;w++){
+                 if(i.getStartingDate()==w){
+                     s= i.getStartingDate() == end;
+                 }
+                 if(i.getEndingDate()==w){
+                     n =i.getEndingDate()==start;
+                 }
+
+             }
+
+
+         }
+         return s &&n;
+
+     }
+
 }

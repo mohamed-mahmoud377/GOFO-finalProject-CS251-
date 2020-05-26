@@ -1,0 +1,255 @@
+@startuml
+
+title __DEMO's Class Diagram__\n
+
+  namespace  {
+    class CRLFOutputStream {
+        # lastb : int
+        {static} # newline : byte[]
+        + CRLFOutputStream()
+        + write()
+        + write()
+        + write()
+    }
+  }
+  
+
+  namespace  {
+    class NewlineOutputStream {
+        - lastb : int
+        {static} - newline : byte[]
+        + NewlineOutputStream()
+        + write()
+        + write()
+        + write()
+    }
+  }
+  
+
+  namespace  {
+    class copier {
+        {static} + main()
+    }
+  }
+  
+
+  namespace  {
+    class folderlist {
+        {static} ~ debug : boolean
+        {static} ~ host : String
+        {static} ~ password : String
+        {static} ~ pattern : String
+        {static} ~ protocol : String
+        {static} ~ recursive : boolean
+        {static} ~ root : String
+        {static} ~ url : String
+        {static} ~ user : String
+        {static} ~ verbose : boolean
+        {static} + main()
+        {static} ~ dumpFolder()
+    }
+  }
+  
+
+  namespace  {
+    class monitor {
+        {static} + main()
+    }
+  }
+  
+
+  namespace  {
+    class mover {
+        {static} ~ dest : String
+        {static} ~ expunge : boolean
+        {static} ~ host : String
+        {static} ~ password : String
+        {static} ~ protocol : String
+        {static} ~ src : String
+        {static} ~ url : String
+        {static} ~ user : String
+        {static} + main()
+    }
+  }
+  
+
+  namespace  {
+    class msgmultisendsample {
+        {static} ~ msgText1 : String
+        {static} ~ msgText2 : String
+        {static} + main()
+    }
+  }
+  
+
+  namespace  {
+    class msgsend {
+        {static} + collect()
+        {static} + main()
+    }
+  }
+  
+
+  namespace  {
+    class msgsendsample {
+        {static} ~ msgText : String
+        {static} + main()
+        {static} - usage()
+    }
+  }
+  
+
+  namespace  {
+    class msgshow {
+        {static} ~ attnum : int
+        {static} ~ debug : boolean
+        {static} ~ host : String
+        {static} ~ indentStr : String
+        {static} ~ level : int
+        {static} ~ mbox : String
+        {static} ~ password : String
+        {static} ~ port : int
+        {static} ~ protocol : String
+        {static} ~ saveAttachments : boolean
+        {static} ~ showAlert : boolean
+        {static} ~ showMessage : boolean
+        {static} ~ showStructure : boolean
+        {static} ~ url : String
+        {static} ~ user : String
+        {static} ~ verbose : boolean
+        {static} + dumpEnvelope()
+        {static} + dumpPart()
+        {static} + main()
+        {static} + pr()
+    }
+  }
+  
+
+  namespace  {
+    class namespace {
+        {static} ~ debug : boolean
+        {static} ~ host : String
+        {static} ~ password : String
+        {static} ~ port : int
+        {static} ~ protocol : String
+        {static} ~ suser : String
+        {static} ~ url : String
+        {static} ~ user : String
+        {static} + main()
+        {static} - printFolders()
+    }
+  }
+  
+
+  namespace  {
+    class populate {
+        {static} ~ clear : boolean
+        {static} ~ dontPreserveFlags : boolean
+        {static} ~ force : boolean
+        {static} ~ skipSpecial : boolean
+        {static} + main()
+        {static} - copy()
+        {static} - copyMessages()
+        {static} - printUsage()
+    }
+  }
+  
+
+  namespace  {
+    class registry {
+        {static} ~ _aProvider : Provider
+        {static} ~ _bProvider : Provider
+        {static} ~ _sunIMAP : Provider
+        {static} ~ _sunSMTP : Provider
+        {static} + main()
+    }
+  }
+  
+
+  namespace  {
+    class search {
+        {static} ~ debug : boolean
+        {static} ~ host : String
+        {static} ~ mbox : String
+        {static} ~ password : String
+        {static} ~ protocol : String
+        {static} ~ url : String
+        {static} ~ user : String
+        {static} + dumpPart()
+        {static} + main()
+    }
+  }
+  
+
+  namespace  {
+    class sendfile {
+        {static} + main()
+    }
+  }
+  
+
+  namespace  {
+    class sendhtml {
+        + collect()
+        {static} + main()
+        + sendhtml()
+    }
+  }
+  
+
+  namespace  {
+    class smtpsend {
+        {static} + collect()
+        {static} + main()
+    }
+  }
+  
+
+  namespace  {
+    class transport {
+        {static} ~ msgText : String
+        {static} ~ msgText2 : String
+        + closed()
+        + disconnected()
+        + go()
+        {static} + main()
+        + messageDelivered()
+        + messageNotDelivered()
+        + messagePartiallyDelivered()
+        + opened()
+        + transport()
+        {static} - usage()
+    }
+  }
+  
+
+  namespace  {
+    class uidmsgshow {
+        {static} ~ host : String
+        {static} ~ mbox : String
+        {static} ~ password : String
+        {static} ~ protocol : String
+        {static} ~ url : String
+        {static} ~ user : String
+        {static} ~ verbose : boolean
+        {static} + dumpEnvelope()
+        {static} + dumpPart()
+        {static} + main()
+    }
+  }
+  
+
+  CRLFOutputStream -up-|> java.io.FilterOutputStream
+  NewlineOutputStream -up-|> java.io.FilterOutputStream
+  transport .up.|> javax.mail.event.ConnectionListener
+  transport .up.|> javax.mail.event.TransportListener
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

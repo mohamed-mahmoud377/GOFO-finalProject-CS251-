@@ -10,9 +10,9 @@ import static java.lang.Character.isWhitespace;
 
 public class Team {
 
-    String ID;
-    String teamLeaderID;
-    List<String> invitedPlayersIDs;
+    private String ID;
+    private String teamLeaderID;
+    private final List<String> invitedPlayersIDs;
 
 
     public Team(String ID, String teamLeaderID, List<String> invitedPlayersIDs) {

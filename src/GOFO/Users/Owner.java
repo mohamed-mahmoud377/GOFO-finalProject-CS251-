@@ -11,9 +11,9 @@ import java.util.List;
 import static java.lang.Character.*;
 
 public class Owner extends User implements  I_SignUp , I_UdataInfo {
-    String accountNumber;
-    String address;
-    List<Ground>playgrounds;
+    private String accountNumber;
+    private String address;
+    private List<Ground>playgrounds;
 
     public String getAddress() {
         return address;
@@ -132,6 +132,7 @@ public class Owner extends User implements  I_SignUp , I_UdataInfo {
     @Override
     public void create_account() {
         DataSource.getInstance().addNewUser(this);
+        DataSource.getInstance().addNewOwner(this);
     }
 
     @Override

@@ -7,11 +7,11 @@ package GOFO.Users;
 
  */
 public class User {
-    String ID;
-    String name;
-    String Email;
-    String passWord;
-    String type;
+   protected String ID;
+    protected String name;
+   protected String Email;
+    protected String passWord;
+    protected String type;
 
     public String getType() {
         return type;

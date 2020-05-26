@@ -68,6 +68,13 @@ public class OwnerProfile {
                     int_input = scanner.nextInt();
                 }
                 // adding the playground to the array in the Owner
+                System.out.println("enter the playground booking price :");
+                int_input = scanner1.nextInt();
+                while (!newGround.signUpPrice(int_input)) {
+                    System.out.println("the price you entered is not right is has to be more than 0 $ and less than  20 $ ");
+                    int_input = scanner.nextInt();
+                }
+
                 currentOwner.addNewPlayGround(newGround);
                 System.out.println("the Playground has added successfully");
 
@@ -83,6 +90,17 @@ public class OwnerProfile {
     }
 
     public static void viewPlayGrounds(Owner currentOwner){
+        String string_input;
+        int int_input = 0;
+        Scanner scanner = new Scanner(System.in);
+        Scanner scanner1 = new Scanner(System.in);
+        System.out.println("your playgrounds : ");
+        for(Ground i : currentOwner.getPlaygrounds())
+            i.display();
+        System.out.println("\n");
+        System.out.println("[0] back");
+        string_input=scanner.nextLine();
+
 
 
     }

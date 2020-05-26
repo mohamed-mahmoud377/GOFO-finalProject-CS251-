@@ -1,6 +1,7 @@
 package GOFO.Users ;
 
 import GOFO.DataModel.DataSource;
+import GOFO.OwnerClasses.Booking;
 import GOFO.PlayerClasses.Invitation;
 import GOFO.PlayerClasses.Team;
 import GOFO.Registering.I_SignUp;
@@ -13,11 +14,19 @@ import static java.lang.Character.*;
 
 
 public class Player extends User implements  I_SignUp , I_UdataInfo {
-    String myTeamID;
-    List<String> joinedTeamsIDs;
-    List <String> bookingsID;
+    private String myTeamID;
+    private List<String> joinedTeamsIDs;
+    private List <String> bookingsID;
 
-   //constructors
+    public List<String> getBookingsID() {
+        return bookingsID;
+    }
+
+    public void setBookingsID(List<String> bookingsID) {
+        this.bookingsID = bookingsID;
+    }
+
+    //constructors
     public Player(){
         super();
         type = "Player";
@@ -117,6 +126,7 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
     @Override
     public void create_account() {
         DataSource.getInstance().addNewUser(this);
+        DataSource.getInstance().addNewPlayer(this);
 
     }
 
@@ -194,6 +204,15 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
     @Override
     public String toString() {
         return "type "+ type +"name : " +name+ " ID :" + ID + " Email : "+ Email + " password" + passWord +"\n";
+    }
+    public void addBookingID(String bookingID){
+        bookingsID.add(bookingID);
+
+    }
+    public List<Booking> getMyBookings(){
+        return  DataSource.getInstance().getPlayerBookings(bookingsID);
+         
+
     }
 
 

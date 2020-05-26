@@ -14,8 +14,8 @@ import javax.mail.internet.MimeMessage;
 
 
 public class Verify {
-    static Random rand ;
-    static  int rand_int1 ;
+    private static Random rand ;
+    private static  int rand_int1 ;
 
     public static boolean send_verify_code(String email,String name) {
         rand = new Random();
@@ -61,11 +61,7 @@ public class Verify {
 
     }
     public static boolean check_validation_code(int code){
-        if(code==rand_int1){
-            return true;
-        }else {
-            return false;
-        }
+        return code == rand_int1;
     }
 
     }

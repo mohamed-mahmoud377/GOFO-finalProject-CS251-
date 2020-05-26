@@ -6,6 +6,4 @@ public interface I_LogIn {
     boolean checkInfo(String ID,String password);
    User logIn();
 
-
-
 }

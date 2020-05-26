@@ -1,6 +1,7 @@
 
 package GOFO.DataModel;
 
+import GOFO.OwnerClasses.Booking;
 import GOFO.OwnerClasses.Ground;
 import GOFO.PlayerClasses.Invitation;
 import GOFO.PlayerClasses.Team;
@@ -23,13 +24,15 @@ import java.util.List;
  * maybe it will be stored in text file but that is not for sure yet
  * */
 public class DataSource implements I_LogIn {
-    public static  DataSource dataSource= new DataSource();
-    Admin admin ;
-    User loggedInUser;
-    Team teamSelected;
-    List<User> users;
-    List<Team> teams;
-    List <Invitation> invitations;
+    private static final DataSource dataSource= new DataSource();
+     private final Admin admin ;
+    private User loggedInUser;
+    private final Team teamSelected;
+    private final List<Player> players;
+    private final List<Owner> owners;
+    private final List<User> users;
+    private final List<Team> teams;
+    private final List <Invitation> invitations;
 
     /**@author mohamed moahmoud
      *
@@ -48,6 +51,8 @@ public class DataSource implements I_LogIn {
         users= new ArrayList<User>();
         admin = new Admin("admin","admin","admin@gmail.com","admin");
         invitations = new ArrayList<Invitation>();
+        players = new ArrayList<Player>();
+        owners = new ArrayList<Owner>();
 
 
     }
@@ -80,7 +85,11 @@ public class DataSource implements I_LogIn {
     }
     public void hardCodedUsers(){
         Player player1 = new Player("jerry11","mohamed ali","jerry ","roma");
+        player1.addBookingID("pk11");
+        player1.addBookingID("pk22");
         Player player2 = new Player("snoopy22","mohamed mahmoud","jerry ","roma22");
+        player2.addBookingID("pk33");
+        player2.addBookingID("pk44");
 
         Player player3 = new Player("free_for_all11","Mustafa hatem","jerry ",";roma");
 
@@ -97,13 +106,50 @@ public class DataSource implements I_LogIn {
 //        Ground ground1= new Ground()
 
         Owner owner2 = new Owner("roma","roma","jerry@gamil.con","Asa7be,com");
+        Ground ground1 = new Ground("pg1","romaspalyground","aiaa jalsdkfj;aslkdfjajl;","sdfsdf"
+                ,owner2.getID(),10,22,10,false);
+        Booking booking1 = new Booking(10,12,"pk11","jerry11");
+
+        Booking booking2 = new Booking(12,13,"pk22","jerry11");
+
+        Booking booking3 = new Booking(16,17,"pk33","snoopy22");
+
+        Booking booking4 = new Booking(18,20,"pk44","snoopy22");
+        ground1.addBooking(booking1);
+        ground1.addBooking(booking2);
+
+        ground1.addBooking(booking3);
+
+        ground1.addBooking(booking4);
+
+
+
+
+
+
+        Ground ground2 =  new Ground ("pg2","comeon","lets play ","s;ldkfjs;al",owner2.getID(),8,22,10,false);
+        owner2.addNewPlayGround(ground1);
+        owner2.addNewPlayGround(ground2);
         Owner owner3 = new Owner("snooopy","roma","jerry@gamil.con","Asa7be,com");
+        Ground ground3 = new Ground("pg3","snooopys play goutnd","lests go;","12 el gadf"
+                ,owner3.getID(),4,20,15,false);
+        Ground ground4 =  new Ground ("pg4","fuckyeah","yea baby ","s;ldkfdfjs;al",owner3.getID(),6,23,9,false);
+        owner3.addNewPlayGround(ground3);
+        owner3.addNewPlayGround(ground4);
         Owner owner4 = new Owner("aagsdfamer","roma","jerry@gamil.con","Asa7be,com");
         Owner owner5 = new Owner("wahetever","roma","jerry@gamil.con","Asa7be,com");
         users.add(player1);users.add(player2);users.add(player3);
         users.add(player4);users.add(player5);users.add(player6);users.add(player7);users.add(player8);
         users.add(player9);users.add(player10);users.add(owner1);
         users.add(owner2);users.add(owner3);users.add(owner4);users.add(owner5);
+        for(User i : users){
+            if(i.getType().equals("Player")){
+                players.add((Player) i);
+            }else if(i.getType().equals("Owner")){
+                owners.add((Owner) i);
+            }
+        }
+
 
     }
     @Override
@@ -125,6 +171,9 @@ public class DataSource implements I_LogIn {
     @Override
     public User logIn() {
         return loggedInUser;
+    }
+    public List<User>getUsers(){
+        return users;
     }
 
 
@@ -168,6 +217,33 @@ public class DataSource implements I_LogIn {
         return receivedInvitations;
 
     }
+
+    public void addNewPlayer(Player newPlayer){
+        players.add(newPlayer);
+    }
+
+
+
+    public List<Player> getPlayers(){
+        return players;
+    }
+
+    public List<Booking>getPlayerBookings(List<String> bookedIDs){
+        List<Booking> PlayerBookings= new ArrayList<Booking>();
+        for(Owner i : owners){
+            for(Ground w : i.getPlaygrounds()){
+                for(Booking q : w.getBookings()){
+                    for(String e : bookedIDs){
+                        if(e.equals(q.getID()))
+                            PlayerBookings.add(q);
+                    }
+                }
+            }
+        }
+        return PlayerBookings;
+    }
+
+
 
 
     ///////////////////////////////////////// invitations
@@ -244,8 +320,10 @@ public class DataSource implements I_LogIn {
         return true;
     }
 
-
-
-
-
+    public void addNewOwner(Owner newOwner){
+        owners.add(newOwner);
+    }
+    public  List<Owner> getOwners(){
+        return owners;
+    }
 }
