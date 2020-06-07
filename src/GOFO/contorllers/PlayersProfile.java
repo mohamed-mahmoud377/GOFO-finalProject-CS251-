@@ -269,7 +269,7 @@ public class PlayersProfile {
                         currentPlayer.addMyTeam(currentTeam);
                         System.out.println("Team created successfully");
                         System.out.println("you can go to mange invitations and invite your friends");
-                        DataSource.getInstance().printTeams();
+//                        DataSource.getInstance().printTeams();
 
 
                     }else{

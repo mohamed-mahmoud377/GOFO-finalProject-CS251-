@@ -22,19 +22,8 @@
     <list default="true" id="21ea433d-c8bb-4680-a2bb-bb0db1902d6d" name="Default Changelist" comment=" i added somtihng">
       <change afterPath="$PROJECT_DIR$/Package GOFO.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Package GOFO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/DataModel/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/DataModel/DataSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/PlayerClasses/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/PlayerClasses/Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/HomeScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/HomeScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/SnapTube Video/58- Database Normalization - second Normal Form - 2nd NF - Part 4(360P).mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/DataModel/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/DataModel/DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/OwnerClasses/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/OwnerClasses/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/OwnerClasses/Ground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/OwnerClasses/Ground.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Invitation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Invitation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/contorllers/AdminProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/contorllers/AdminProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/contorllers/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/contorllers/HomeScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/contorllers/OwnerProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/contorllers/OwnerProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GOFO/contorllers/PlayersProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/contorllers/PlayersProfile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +127,7 @@
       <workItem from="1591210892049" duration="5422000" />
       <workItem from="1591216397537" duration="419000" />
       <workItem from="1591386638104" duration="21000" />
-      <workItem from="1591515349591" duration="2526000" />
+      <workItem from="1591515349591" duration="3085000" />
     </task>
     <task id="LOCAL-00001" summary="yea whatever">
       <created>1589838106769</created>
@@ -262,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590457010925</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add the lasts doc">
+      <created>1591517953151</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591517953151</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +286,8 @@
     <MESSAGE value="added the profile classes" />
     <MESSAGE value="the latest update you have to marge it and start after it" />
     <MESSAGE value=" i added somtihng" />
-    <option name="LAST_COMMIT_MESSAGE" value=" i added somtihng" />
+    <MESSAGE value="add the lasts doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the lasts doc" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -316,10 +313,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1591216432781" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1590911084406">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1591517948491">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1590911084406" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591517948491" />
     <state x="564" y="303" key="DetectedRootsChooserDialog" timestamp="1589870827872">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
