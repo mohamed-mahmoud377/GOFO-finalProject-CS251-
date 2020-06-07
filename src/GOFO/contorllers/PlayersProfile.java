@@ -13,10 +13,19 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * this class is a control class and because this program is a console based program so it just contain
+ * a static methods that will be used in the main to keep the code more organized and will contain
+ * all the methods that the Player will be able to preform .
+ * @author mohamed mahmoud
+ */
 public class PlayersProfile {
     private  PlayersProfile(){}
 
-
+    /**
+     * prints all menu for the player to choose from whatever he want to do
+     * @param currentPlayer the player who recently logged in or signed up
+     */
     public static void printMenu( Player currentPlayer){
 
         System.out.println("welcome back " + currentPlayer.getName() + "\n");
@@ -27,6 +36,12 @@ public class PlayersProfile {
         System.out.println("[5] log out");
 
     }
+
+    /**
+     * static method allow the player to interact with the program to search for the playgrounds he wants
+     * and can book any one of them and can view them
+     * @param currentPlayer the player who recently logged in or signed up
+     */
     public static void mangeBooking (Player currentPlayer){
         Scanner scanner = new Scanner(System.in);
         Scanner scanner1 = new Scanner(System.in);
@@ -218,6 +233,10 @@ public class PlayersProfile {
 
     }
 
+    /**
+     * static method allow the user to mange every thing about his team and the teams he joined
+     * @param currentPlayer the player who recently logged in or signed up
+     */
     public static void mangeTeams(Player currentPlayer){
         Scanner scanner = new Scanner(System.in);
         Scanner scanner1 = new Scanner(System.in);
@@ -302,6 +321,11 @@ public class PlayersProfile {
         }
     }
 
+    /**
+     * static method for the player to interact with the system that allow him the mange his invitations
+     * so he can send an invitation or accept one or maybe reject it
+     * @param currentPlayer the player who recently logged in or signed up
+     */
     public static void mangeInvitations(Player currentPlayer){
         while(true) {
 
@@ -397,6 +421,10 @@ public class PlayersProfile {
 
     }
 
+    /**
+     * allow the user to update his name or email or his password
+     * @param currentPlayer the player who recently logged in or signed up
+     */
     public static void updateInfo(Player currentPlayer){
         Scanner scanner = new Scanner(System.in);
         Scanner scanner1 = new Scanner(System.in);

@@ -10,14 +10,31 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * this class is a control class and because this program is a console based program so it just contain
+ * a static methods that will be used in the main to keep the code more organized and will contain
+ * all the methods the the Admin will be able to preform .
+ * @author mohamed mahmoud
+ *
+ *
+ */
 public class AdminProfile {
+    /**
+     *this class has a private constructor because it a utility class
+     */
     private AdminProfile(){}
+
    public  static void displayMenu(){
        System.out.println("[1] suspend playGrounds");
        System.out.println("[2] active playgrounds");
        System.out.println("[3] delete playground");
        System.out.println("[4] log out");
    }
+    /**
+     *this method get all the play ground that is active and print it to the admin
+     * so he can suspend any playground he wants by entering its ID
+     *
+     */
    public static  void suspendPlayGrounds() {
         int check=0;
        Scanner scanner = new Scanner(System.in);
@@ -60,7 +77,10 @@ public class AdminProfile {
 
 
        }
-   }
+   }/**
+     *this method get all the play ground that is suspended and print it to the admin
+     * so he can active any playground he wants by entering its ID
+     */
    public static void activePlayGround(){
        int check=0;
        Scanner scanner = new Scanner(System.in);
@@ -105,6 +125,10 @@ public class AdminProfile {
        }
 
    }
+    /**
+     *this static method get all the play ground that is available and print it to the admin
+     * so he can delete any playground he wants by entering its ID
+     */
    public static void deletePlayGround(){
        int check=0;
        Scanner scanner = new Scanner(System.in);

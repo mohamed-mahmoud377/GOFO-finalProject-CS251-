@@ -1,3 +1,5 @@
+
+
 package GOFO.contorllers;
 
 import GOFO.DataModel.DataSource;
@@ -8,8 +10,21 @@ import GOFO.verification.Verify;
 
 import java.util.Scanner;
 
+/**
+ * this class is a utility class ans also we can consider it as a control class that allow the user to
+ * sign up and log in through static methods that will be used in the main to reduce the code there and keep
+ * it more arranged
+ * @author mohamed mahmoud
+ */
 public class HomeScreen {
     private HomeScreen(){}
+    /**
+     * this static method is responsible for the user to log in the player of the owner by entering their
+     * ID and password and it will use the data source to check for the ID and the password if it is right
+     * or not
+     * @return User which is the the user how has already logged in it can be an admin or a player or an owner
+     *
+     */
     public static User userLogIn(){
         String string_input;
         int int_input = 0;
@@ -38,6 +53,14 @@ public class HomeScreen {
             return loggedInUser;
 
     }
+    /**
+     *static method for the player to sign up it creates a new player and make the user enter all the need
+     * info to sign up the player account and it uses player class methods to sign up player info in a correct way
+     * and it has a connection to the internet through the  verify class to verify the player Gmail
+     * and it calls all the need methods for that
+     * @return Player
+     * which is the player who just already singed up
+     */
     public static Player playerSigningUp(){
         String string_input;
         int int_input = 0;
@@ -106,7 +129,6 @@ public class HomeScreen {
                 }
                 currentPlayer.create_account();
                 System.out.println(" congratulations ! \nyou have registered successfully ");
-                DataSource.getInstance().printUsers();
                 break;
 
 
@@ -122,6 +144,14 @@ public class HomeScreen {
         return currentPlayer;
 
     }
+    /**
+            *static method for the owner to sign up it creates a new owner and make the user enter all the need
+     * info to sign up the owner account and it uses player class methods to sign up player info in a correct way
+     * and it has a connection to the internet through the  verify class to verify the Owner Gmail
+     * and it calls all the need methods for that
+     * @return Onwer
+     * which is the player who just already singed up
+     */
     public static Owner ownerSigningUp(){
         String string_input;
         int int_input = 0;
@@ -203,7 +233,7 @@ public class HomeScreen {
                 }
                 currentOwner.create_account();
                 System.out.println(" congratulations ! \nyou have registered successfully ");
-                DataSource.getInstance().printUsers();
+//                DataSource.getInstance().printUsers();
                 break;
 
 
@@ -222,11 +252,14 @@ public class HomeScreen {
 
         return currentOwner;
 
-    }
+    }/**
+     prints the first screen for the program that allow the user to lon in ofr sign up or sign up as an Owner
+
+    */
     public static void printMenu(){
         System.out.println("welcome to GOFO :D\n");
         System.out.println("[1] log in");
-        System.out.println("[2] sing up\n");
+        System.out.println("[2] sign up\n");
         System.out.println("[3] want to own a playground ?\n");
 
         System.out.println("enter choose :");

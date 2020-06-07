@@ -1,6 +1,9 @@
 package GOFO.OwnerClasses;
 
-/**@author abdralham fesl
+/**
+ * this class contain all the info needed about the booking and it only exist int he a list of every play ground
+ * 
+ * @author Abdelraham fasel
  * @version v1.0
  *
  *

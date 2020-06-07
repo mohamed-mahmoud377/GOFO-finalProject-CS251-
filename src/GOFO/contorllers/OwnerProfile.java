@@ -6,8 +6,20 @@ import GOFO.Users.Owner;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * this class is a control class and because this program is a console based program so it just contain
+ *  * a static methods that will be used in the main to keep the code more organized and will contain
+ *  * all the methods that the owner will be able to preform in his profile page .
+ * @author mohamed mahmoud
+ *
+ */
 public class OwnerProfile {
     private OwnerProfile(){ }
+
+    /**
+     * prints the menu for the owner to choose from
+     * @param currentOwner the owner who just logged in or signed up
+     */
     public static void printMenu(Owner currentOwner){
 
         System.out.println(" welcome "+ currentOwner.getName()+"\n");
@@ -19,6 +31,11 @@ public class OwnerProfile {
         System.out.println("[5] Log out");
     }
 
+    /**
+     * this method create a new play ground and fill all of its info and add it to the list of the playgrounds
+     * of the current owner
+     * @param currentOwner the owner who just logged in or signed up
+     */
     public static void AddNewPlayGround(Owner currentOwner){
         String string_input;
         int int_input = 0;
@@ -89,6 +106,10 @@ public class OwnerProfile {
 
     }
 
+    /**
+     * allow the current owner  to view all of his playgrounds
+     * @param currentOwner the owner who just logged in or signed up
+     */
     public static void viewPlayGrounds(Owner currentOwner){
         String string_input;
         int int_input = 0;

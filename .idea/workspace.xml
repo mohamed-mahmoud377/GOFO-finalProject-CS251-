@@ -20,55 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21ea433d-c8bb-4680-a2bb-bb0db1902d6d" name="Default Changelist" comment=" i added somtihng">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/java activation/jaf-1.1.1/demo/demo.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/client/client.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/demo.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/logging/logging.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/outlook/outlook.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/servlet/servlet.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/webapp/src/classes/demo/demo.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/webapp/src/docroot/docroot.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javaMail/javamail-1.4.7/demo/webapp/src/taglib/demo/demo.plantuml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/OwnerClasses/Booking.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/OwnerClasses/Ground.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/PlayerClasses/Invitation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/PlayerClasses/Search.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/PlayerClasses/Team.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Registering/I_UdataInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Owner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/AdminProfile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/HomeScreen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/OwnerProfile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/PlayersProfile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/META-INF/GOFO-finalProject-CS251-.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Package GOFO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Package GOFO.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/DataModel/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/DataModel/DataSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Registering/I_LogIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Registering/I_LogIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/PlayGroundOwner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/PlayerClasses/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/PlayerClasses/Team.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/HomeScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/HomeScreen.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/SnapTube Video/58- Database Normalization - second Normal Form - 2nd NF - Part 4(360P).mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GOFO/DataModel/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/DataModel/DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GOFO/OwnerClasses/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/OwnerClasses/Booking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GOFO/OwnerClasses/Ground.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/OwnerClasses/Ground.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Invitation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Invitation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Registering/I_LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Registering/I_LogIn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GOFO/contorllers/AdminProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/contorllers/AdminProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/contorllers/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/contorllers/HomeScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GOFO/contorllers/OwnerProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/contorllers/OwnerProfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GOFO/contorllers/PlayersProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/contorllers/PlayersProfile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/verification/Verify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/verification/Verify.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,15 +70,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -149,7 +117,28 @@
       <workItem from="1590117402314" duration="16783000" />
       <workItem from="1590175211517" duration="14389000" />
       <workItem from="1590197755094" duration="6701000" />
-      <workItem from="1590402244741" duration="21613000" />
+      <workItem from="1590402244741" duration="22565000" />
+      <workItem from="1590457948931" duration="404000" />
+      <workItem from="1590458368122" duration="1229000" />
+      <workItem from="1590461726318" duration="2869000" />
+      <workItem from="1590465735650" duration="425000" />
+      <workItem from="1590503929053" duration="10000" />
+      <workItem from="1590665610868" duration="600000" />
+      <workItem from="1590862033397" duration="740000" />
+      <workItem from="1590909008236" duration="2361000" />
+      <workItem from="1590912463845" duration="1075000" />
+      <workItem from="1590947497409" duration="729000" />
+      <workItem from="1590957446694" duration="32000" />
+      <workItem from="1590998242600" duration="1802000" />
+      <workItem from="1591041273038" duration="2232000" />
+      <workItem from="1591089551127" duration="10000" />
+      <workItem from="1591089974679" duration="23000" />
+      <workItem from="1591129770326" duration="2993000" />
+      <workItem from="1591174144008" duration="1224000" />
+      <workItem from="1591210892049" duration="5422000" />
+      <workItem from="1591216397537" duration="419000" />
+      <workItem from="1591386638104" duration="21000" />
+      <workItem from="1591515349591" duration="2526000" />
     </task>
     <task id="LOCAL-00001" summary="yea whatever">
       <created>1589838106769</created>
@@ -266,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590175381661</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary=" i added somtihng">
+      <created>1590457010925</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1590457010925</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,9 +288,9 @@
     <MESSAGE value="added updata info interface" />
     <MESSAGE value="i updated the main for you to staring working at" />
     <MESSAGE value="added the profile classes" />
-    <MESSAGE value=" i added somtihng" />
     <MESSAGE value="the latest update you have to marge it and start after it" />
-    <option name="LAST_COMMIT_MESSAGE" value="the latest update you have to marge it and start after it" />
+    <MESSAGE value=" i added somtihng" />
+    <option name="LAST_COMMIT_MESSAGE" value=" i added somtihng" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -316,14 +312,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1590029504029" />
-    <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589958841806">
+    <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591216432781">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1589958841806" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1590175375907">
+    <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1591216432781" />
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1590911084406">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1590175375907" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1590911084406" />
     <state x="564" y="303" key="DetectedRootsChooserDialog" timestamp="1589870827872">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -332,26 +328,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="252" y="52" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1590013174891" />
-    <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1589958840751">
+    <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1591131297070">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589958840751" />
-    <state width="1493" height="284" key="GridCell.Tab.0.bottom" timestamp="1590456019572">
+    <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591131297070" />
+    <state x="593" y="352" key="Github.CreateGistDialog" timestamp="1590461967211">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="284" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1590456019572" />
-    <state width="1493" height="284" key="GridCell.Tab.0.center" timestamp="1590456019572">
+    <state x="593" y="352" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1590461967211" />
+    <state width="1493" height="86" key="GridCell.Tab.0.bottom" timestamp="1591216328699">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="284" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1590456019572" />
-    <state width="1493" height="284" key="GridCell.Tab.0.left" timestamp="1590456019572">
+    <state width="1493" height="86" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591216328699" />
+    <state width="1493" height="86" key="GridCell.Tab.0.center" timestamp="1591216328699">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="284" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1590456019572" />
-    <state width="1493" height="284" key="GridCell.Tab.0.right" timestamp="1590456019572">
+    <state width="1493" height="86" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1591216328699" />
+    <state width="1493" height="86" key="GridCell.Tab.0.left" timestamp="1591216328698">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="284" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1590456019572" />
+    <state width="1493" height="86" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1591216328698" />
+    <state width="1493" height="86" key="GridCell.Tab.0.right" timestamp="1591216328699">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="86" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1591216328699" />
     <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1589941192809">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -372,14 +372,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="481" y="148" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1589951338361" />
+    <state x="439" y="137" width="670" height="590" key="NewModule_or_Project.wizard" timestamp="1590458821435">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="439" y="137" width="670" height="590" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1590458821435" />
+    <state x="483" y="115" key="PlantUMLSettings" timestamp="1590458174084">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="483" y="115" key="PlantUMLSettings/0.0.1536.864@0.0.1536.864" timestamp="1590458174084" />
     <state x="423" y="154" key="RollbackChangesDialog" timestamp="1589947778567">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="423" y="154" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1589947778567" />
-    <state x="110" y="69" key="SettingsEditor" timestamp="1590030325244">
+    <state x="272" y="56" key="SettingsEditor" timestamp="1590912943892">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="110" y="69" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590030325244" />
+    <state x="272" y="56" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590912943892" />
     <state x="470" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1589946641787">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -388,10 +396,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="578" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1590010097411" />
-    <state x="209" y="53" key="new project wizard" timestamp="1589947851821">
+    <state x="209" y="53" key="new project wizard" timestamp="1591386656744">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="209" y="53" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1589947851821" />
+    <state x="209" y="53" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1591386656744" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1590912902861">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1590912902861" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1590177392251">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
