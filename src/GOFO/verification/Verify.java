@@ -12,11 +12,20 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
-
+/**
+ * sent the verification code and check if it is right or not and has connection to the internet
+ * and to run this class you must add the lib added with the project
+ */
 public class Verify {
     private static Random rand ;
     private static  int rand_int1 ;
 
+    /**
+     * sent a massage to the user to his email with a random number and only work with Gmail
+     * @param email the user email
+     * @param name the user name
+     * @return return true if the massage sent successfully and false if not
+     */
     public static boolean send_verify_code(String email,String name) {
         rand = new Random();
         rand_int1 = rand.nextInt(10000);
@@ -60,6 +69,12 @@ public class Verify {
         }
 
     }
+
+    /**
+     * checks if the code sent to the User and user enters right or not
+     * @param code the code intered by the user
+     * @return true if the code is right
+     */
     public static boolean check_validation_code(int code){
         return code == rand_int1;
     }

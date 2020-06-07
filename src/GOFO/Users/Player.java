@@ -11,7 +11,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static java.lang.Character.*;
+/**
+ *class that contain every thing about the Player and his bookings
+ * @author mohamed mahomud
 
+ */
 
 public class Player extends User implements  I_SignUp , I_UdataInfo {
     private String myTeamID;
@@ -53,12 +57,12 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
 // sgining up
 
     /**
-     * @author mohamed mohmoud said
      * this method is making sure that the name the user enters is vaild
      * is only valid is it is english char only
      * and return true when its right and false when the name is wrong
+      @author mohamed mohmoud said
      * @param name the given name by the user
-     * @return boolean
+     * @return true if the name were valid
      */
     @Override
     public boolean signUp_name(String name) {
@@ -75,11 +79,12 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
     }
 
     /**
+     *  it checks if the given ID were valid or not and if it is taken before or not
      * @author mohamed mahmoud
      * @param ID the given ID by the user
-     * @return boolean
+     * @return true if the ID is valid false if not
 
-     * it checks if the given ID is valid or not and if it is taken before or not
+     *
      */
     @Override
     public boolean signUp_ID(String ID) {
@@ -97,6 +102,11 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
         return true;
     }
 
+    /**
+     * checks if the the email entered is valid or not from its string only
+     * @param Email the email entered by the user
+     * @return true if the email were valid
+     */
     @Override
     public boolean signUp_Email(String Email) {
         String regex = "^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$";
@@ -105,7 +115,12 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
 
 
     }
-
+    /**
+     * checks if the password is valid or not it is valid if it has at least one capital alphabet and one number and
+     * at least 8 char
+     * @param password the password entered by the Owner
+     * @return true if the password is valid false if not
+     */
     @Override
     public boolean signUp_password(String password) {
         boolean num_check = false;
@@ -122,7 +137,9 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
         this.passWord = password;
         return num_check && cap_check;
     }
-
+    /**
+     * creates a new account by adding it to dataSource class
+     */
     @Override
     public void create_account() {
         DataSource.getInstance().addNewUser(this);
@@ -180,20 +197,37 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
 
     //adders
 
+    /**
+     * adds a brands new team to the dataSource and this team is the team that the player owns
+     * @param team the new team
+     */
     public void addMyTeam(Team team){
          myTeamID = team.getID();
         DataSource.getInstance().addNewTeam(team);
 
     }
+    /**
+     * adds a brands new team to the dataSource and this team is the team that the player joined
+     * @param teamID the new team ID
+     */
     public void addJoinedTeam(String teamID){
         joinedTeamsIDs.add(teamID);
     }
 
  // invitations
 
+    /**
+     * send a new invitation to the other players to join his team
+     * @param invitation the new invitation
+     */
     public void sendInvitation(Invitation invitation){
         invitation.send();
     }
+
+    /**
+     * gets all the invitations that has been sent to the player and put it in  a list
+     * @return a list of all the invitation that has been sent to the player
+     */
     public ArrayList<Invitation> receiveInvitations(){
         return DataSource.getInstance().getMyReceivedInvitations(ID);
 
@@ -205,10 +239,16 @@ public class Player extends User implements  I_SignUp , I_UdataInfo {
     public String toString() {
         return "type "+ type +"name : " +name+ " ID :" + ID + " Email : "+ Email + " password" + passWord +"\n";
     }
+
+    /**
+     * adds a new booking the player by saving only the ID of the booking
+     * @param bookingID the booking ID
+     */
     public void addBookingID(String bookingID){
         bookingsID.add(bookingID);
 
     }
+
     public List<Booking> getMyBookings(){
         return  DataSource.getInstance().getPlayerBookings(bookingsID);
          

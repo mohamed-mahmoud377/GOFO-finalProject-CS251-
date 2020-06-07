@@ -20,11 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21ea433d-c8bb-4680-a2bb-bb0db1902d6d" name="Default Changelist" comment=" i added somtihng">
-      <change afterPath="$PROJECT_DIR$/Package GOFO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Package GOFO.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/PlayerClasses/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/contorllers/PlayersProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/contorllers/PlayersProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/Registering/I_LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Registering/I_LogIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/Registering/I_SignUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Registering/I_SignUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/Registering/I_UdataInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Registering/I_UdataInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GOFO/verification/Verify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/verification/Verify.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +132,7 @@
       <workItem from="1591210892049" duration="5422000" />
       <workItem from="1591216397537" duration="419000" />
       <workItem from="1591386638104" duration="21000" />
-      <workItem from="1591515349591" duration="3085000" />
+      <workItem from="1591515349591" duration="6293000" />
     </task>
     <task id="LOCAL-00001" summary="yea whatever">
       <created>1589838106769</created>
@@ -258,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591517953151</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=" i added somtihng">
+      <created>1591518747675</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1591518747675</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,9 +297,9 @@
     <MESSAGE value="i updated the main for you to staring working at" />
     <MESSAGE value="added the profile classes" />
     <MESSAGE value="the latest update you have to marge it and start after it" />
-    <MESSAGE value=" i added somtihng" />
     <MESSAGE value="add the lasts doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the lasts doc" />
+    <MESSAGE value=" i added somtihng" />
+    <option name="LAST_COMMIT_MESSAGE" value=" i added somtihng" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -313,10 +325,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1591216432781" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1591517948491">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1591518745837">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591517948491" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591518745837" />
     <state x="564" y="303" key="DetectedRootsChooserDialog" timestamp="1589870827872">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -411,7 +423,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/GOFO/Main.java</url>
-          <line>178</line>
+          <line>182</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

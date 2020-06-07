@@ -1,9 +1,10 @@
 package GOFO.Users;
 /**
- * @author mohamed mahmoud said
- * @version v1.0
  * this is the base class for the users that the basic info
  * need
+ * @author abderam fesal
+ * @version v1.0
+
 
  */
 public class User {

@@ -13,6 +13,10 @@ import GOFO.Users.User;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * the Main class the point the program starts at and it is a console based porgram
+ * @author  mohamed mahmoud
+ */
 public class Main {
 
     public static void main(String[] args) {
