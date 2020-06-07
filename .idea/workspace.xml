@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21ea433d-c8bb-4680-a2bb-bb0db1902d6d" name="Default Changelist" comment="" />
+    <list default="true" id="21ea433d-c8bb-4680-a2bb-bb0db1902d6d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +64,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -121,7 +123,7 @@
       <workItem from="1591210892049" duration="5422000" />
       <workItem from="1591216397537" duration="419000" />
       <workItem from="1591386638104" duration="21000" />
-      <workItem from="1591515349591" duration="6666000" />
+      <workItem from="1591515349591" duration="7977000" />
     </task>
     <task id="LOCAL-00001" summary="yea whatever">
       <created>1589838106769</created>
@@ -317,10 +319,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1590029504029" />
-    <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591216432781">
+    <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591522489804">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1591216432781" />
+    <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1591522489804" />
     <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1591522100904">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -333,30 +335,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="252" y="52" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1590013174891" />
-    <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1591131297070">
+    <state x="473" y="174" key="FileChooserDialogImpl" timestamp="1591522466839">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591131297070" />
+    <state x="473" y="174" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1591522466839" />
     <state x="593" y="352" key="Github.CreateGistDialog" timestamp="1590461967211">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="593" y="352" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1590461967211" />
-    <state width="1493" height="86" key="GridCell.Tab.0.bottom" timestamp="1591216328699">
+    <state width="1493" height="312" key="GridCell.Tab.0.bottom" timestamp="1591522878918">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="86" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591216328699" />
-    <state width="1493" height="86" key="GridCell.Tab.0.center" timestamp="1591216328699">
+    <state width="1493" height="312" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591522878918" />
+    <state width="1493" height="312" key="GridCell.Tab.0.center" timestamp="1591522878917">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="86" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1591216328699" />
-    <state width="1493" height="86" key="GridCell.Tab.0.left" timestamp="1591216328698">
+    <state width="1493" height="312" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1591522878917" />
+    <state width="1493" height="312" key="GridCell.Tab.0.left" timestamp="1591522878917">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="86" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1591216328698" />
-    <state width="1493" height="86" key="GridCell.Tab.0.right" timestamp="1591216328699">
+    <state width="1493" height="312" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1591522878917" />
+    <state width="1493" height="312" key="GridCell.Tab.0.right" timestamp="1591522878917">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="86" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1591216328699" />
+    <state width="1493" height="312" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1591522878917" />
     <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1589941192809">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -389,10 +391,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="423" y="154" key="RollbackChangesDialog/0.0.1536.864@0.0.1536.864" timestamp="1589947778567" />
-    <state x="272" y="56" key="SettingsEditor" timestamp="1590912943892">
+    <state x="272" y="56" key="SettingsEditor" timestamp="1591525307022">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="272" y="56" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590912943892" />
+    <state x="272" y="56" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1591525307022" />
     <state x="470" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1589946641787">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

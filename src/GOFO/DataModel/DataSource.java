@@ -103,28 +103,28 @@ public class DataSource implements I_LogIn {
      * because there is no database to store the data in in the current version
      */
     public void hardCodedUsers(){
-        Player player1 = new Player("jerry11","mohamed ali","jerry ","roma");
+        Player player1 = new Player("mohamed","mohamed ali","jerry@gamil.com ","Mohamed11");
         player1.addBookingID("pk11");
         player1.addBookingID("pk22");
-        Player player2 = new Player("snoopy22","mohamed mahmoud","jerry ","roma22");
+        Player player2 = new Player("snoopy22","mohamed mahmoud","jerry@gamil.com ","Jery22");
         player2.addBookingID("pk33");
         player2.addBookingID("pk44");
 
-        Player player3 = new Player("free_for_all11","Mustafa hatem","jerry ",";roma");
+        Player player3 = new Player("free_for_all11","Mustafa hatem","jerry ","R12345678");
 
-        Player player4 = new Player("fresll","mohamed mahmoud","jerry ",";roma");
-        Player player5 = new Player("whatthefuck","mohamed mahmoud","jerry ",";roma");
-        Player player6 = new Player("gamer","mohamed ali","jerry ","roma");
-        Player player7 = new Player("snower","mohamed mahmoud","jerry ","roma22");
+        Player player4 = new Player("fresll","mohamed mahmoud","jerry ","W12345678");
+        Player player5 = new Player("whatthehack","mohamed mahmoud","jerry ","E12345678");
+        Player player6 = new Player("gamer","mohamed ali","jerry ","T12345678");
+        Player player7 = new Player("snower","mohamed mahmoud","jerry ","Y12345678");
 
-        Player player8 = new Player("free_for_all","Mustafa hatem","jerry ",";roma");
+        Player player8 = new Player("free_for_all","Mustafa hatem","jerry ","U12345678");
 
-        Player player9 = new Player("killer","mohamed mahmoud","jerry ",";roma");
-        Player player10 = new Player("jerry33","mohamed mahmoud","jerry ",";roma");
-        Owner owner1 = new Owner("jerry","roma","jerry@gamil.conm","Asa7be,com");
+        Player player9 = new Player("killer","mohamed mahmoud","jerry ","X12345678");
+        Player player10 = new Player("jerry33","mohamed mahmoud","jerry ","Z12345678");
+        Owner owner1 = new Owner("owner4","roma","jerry@gamil.conm","V12345678");
 //        Ground ground1= new Ground()
 
-        Owner owner2 = new Owner("roma","roma","jerry@gamil.con","Asa7be,com");
+        Owner owner2 = new Owner("owner3","roma","jerry@gamil.con","Asa7be.com");
         Ground ground1 = new Ground("pg1","romaspalyground","aiaa jalsdkfj;aslkdfjajl;","sdfsdf"
                 ,owner2.getID(),10,22,10,false);
         Booking booking1 = new Booking(10,12,"pk11","jerry11");
@@ -152,11 +152,11 @@ public class DataSource implements I_LogIn {
         Owner owner3 = new Owner("snooopy","roma","jerry@gamil.con","Asa7be,com");
         Ground ground3 = new Ground("pg3","snooopys play goutnd","lests go;","12 el gadf"
                 ,owner3.getID(),4,20,15,false);
-        Ground ground4 =  new Ground ("pg4","fuckyeah","yea baby ","s;ldkfdfjs;al",owner3.getID(),6,23,9,false);
+        Ground ground4 =  new Ground ("pg4","fasal","yea baby ","s;ldkfdfjs;al",owner3.getID(),6,23,9,false);
         owner3.addNewPlayGround(ground3);
         owner3.addNewPlayGround(ground4);
-        Owner owner4 = new Owner("aagsdfamer","roma","jerry@gamil.con","Asa7be,com");
-        Owner owner5 = new Owner("wahetever","roma","jerry@gamil.con","Asa7be,com");
+        Owner owner4 = new Owner("owner1","roma","jerry@gamil.con","AS123456");
+        Owner owner5 = new Owner("onwer2","roma","jerry@gamil.con","MM12345678");
         users.add(player1);users.add(player2);users.add(player3);
         users.add(player4);users.add(player5);users.add(player6);users.add(player7);users.add(player8);
         users.add(player9);users.add(player10);users.add(owner1);
