@@ -252,7 +252,8 @@ public class HomeScreen {
 
         return currentOwner;
 
-    }/**
+    }
+    /**
      prints the first screen for the program that allow the user to lon in ofr sign up or sign up as an Owner
 
     */
