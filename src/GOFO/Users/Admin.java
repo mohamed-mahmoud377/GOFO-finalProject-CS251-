@@ -1,7 +1,5 @@
 package GOFO.Users;
 
-import GOFO.Registering.I_LogIn;
-import GOFO.Registering.I_SignUp;
 
 /**
  * class that is  representing the admin
