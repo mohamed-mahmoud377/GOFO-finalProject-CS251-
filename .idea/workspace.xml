@@ -20,121 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21ea433d-c8bb-4680-a2bb-bb0db1902d6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UML/ClassDigram V2.0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UML/classDigram V1.0.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/DataModel/DataSource.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/DataModel/DataSource.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/DataModel/class-use/DataSource.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/DataModel/class-use/DataSource.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/DataModel/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/DataModel/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/DataModel/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/DataModel/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/DataModel/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/DataModel/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/Booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/Booking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/Ground.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/Ground.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/class-use/Booking.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/class-use/Booking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/class-use/Ground.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/class-use/Ground.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/OwnerClasses/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/Invitation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/Invitation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/Search.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/Search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/Team.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/Team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/class-use/Invitation.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/class-use/Invitation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/class-use/Search.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/class-use/Search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/class-use/Team.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/class-use/Team.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/PlayerClasses/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Registering/I_LogIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Registering/I_LogIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Registering/I_SignUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Registering/I_SignUp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Registering/I_UdataInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Registering/I_UdataInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Registering/class-use/I_LogIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Registering/class-use/I_LogIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Registering/class-use/I_SignUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Registering/class-use/I_SignUp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Registering/class-use/I_UdataInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Registering/class-use/I_UdataInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Registering/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Registering/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Registering/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Registering/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Registering/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Registering/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Users/Admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Users/Admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Users/Owner.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Users/Owner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Users/Player.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Users/Player.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Users/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Users/User.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Users/class-use/Admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Users/class-use/Admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Users/class-use/Owner.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Users/class-use/Owner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Users/class-use/Player.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Users/class-use/Player.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Users/class-use/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Users/class-use/User.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Users/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Users/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Users/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Users/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/Users/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/Users/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/class-use/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/class-use/Main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/contorllers/AdminProfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/contorllers/AdminProfile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/contorllers/HomeScreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/contorllers/HomeScreen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/contorllers/OwnerProfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/contorllers/OwnerProfile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/contorllers/PlayersProfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/contorllers/PlayersProfile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/contorllers/class-use/AdminProfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/contorllers/class-use/AdminProfile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/contorllers/class-use/HomeScreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/contorllers/class-use/HomeScreen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/contorllers/class-use/OwnerProfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/contorllers/class-use/OwnerProfile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/contorllers/class-use/PlayersProfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/contorllers/class-use/PlayersProfile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/contorllers/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/contorllers/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/contorllers/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/contorllers/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/contorllers/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/contorllers/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/verification/Verify.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/verification/Verify.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/verification/class-use/Verify.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/verification/class-use/Verify.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/verification/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/verification/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/verification/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/verification/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/GOFO/verification/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/GOFO/verification/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/allclasses-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/allclasses.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/allclasses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/allpackages-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index-files/index-9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/member-search-index.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/package-search-index.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Doc/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Doc/type-search-index.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/DataModel/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/DataModel/DataSource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/OwnerClasses/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/OwnerClasses/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/OwnerClasses/Ground.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/OwnerClasses/Ground.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/PlayerClasses/Invitation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/PlayerClasses/Invitation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/PlayerClasses/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/PlayerClasses/Search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/PlayerClasses/Team.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/PlayerClasses/Team.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Registering/I_SignUp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Registering/I_SignUp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Owner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Owner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/Users/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/AdminProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/AdminProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/HomeScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/HomeScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/OwnerProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/OwnerProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/PlayersProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/contorllers/PlayersProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GOFO-finalProject-CS251-/GOFO/verification/Verify.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GOFO/Users/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GOFO/Users/Admin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +125,12 @@
       <workItem from="1591386638104" duration="21000" />
       <workItem from="1591515349591" duration="19994000" />
       <workItem from="1591603436186" duration="608000" />
-      <workItem from="1591614302021" duration="319000" />
+      <workItem from="1591614302021" duration="807000" />
+      <workItem from="1591620428688" duration="1000" />
+      <workItem from="1591621066186" duration="15000" />
+      <workItem from="1591639877211" duration="2000" />
+      <workItem from="1591640395282" duration="480000" />
+      <workItem from="1591640967038" duration="1541000" />
     </task>
     <task id="LOCAL-00001" summary="yea whatever">
       <created>1589838106769</created>
@@ -398,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591544152489</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary=" i added somtihng">
+      <created>1591615116890</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1591615116890</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,10 +351,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="516" y="152" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1591614342093" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1591544150899">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1591615106450">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591544150899" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1591615106450" />
     <state x="564" y="303" key="DetectedRootsChooserDialog" timestamp="1589870827872">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -473,22 +371,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="593" y="352" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1590461967211" />
-    <state width="1493" height="417" key="GridCell.Tab.0.bottom" timestamp="1591544671862">
+    <state width="1493" height="416" key="GridCell.Tab.0.bottom" timestamp="1591640875416">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="417" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591544671862" />
-    <state width="1493" height="417" key="GridCell.Tab.0.center" timestamp="1591544671861">
+    <state width="1493" height="416" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1591640875416" />
+    <state width="1493" height="416" key="GridCell.Tab.0.center" timestamp="1591640875416">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="417" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1591544671861" />
-    <state width="1493" height="417" key="GridCell.Tab.0.left" timestamp="1591544671861">
+    <state width="1493" height="416" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1591640875416" />
+    <state width="1493" height="416" key="GridCell.Tab.0.left" timestamp="1591640875415">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="417" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1591544671861" />
-    <state width="1493" height="417" key="GridCell.Tab.0.right" timestamp="1591544671861">
+    <state width="1493" height="416" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1591640875415" />
+    <state width="1493" height="416" key="GridCell.Tab.0.right" timestamp="1591640875416">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="417" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1591544671861" />
+    <state width="1493" height="416" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1591640875416" />
     <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1589941192809">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
