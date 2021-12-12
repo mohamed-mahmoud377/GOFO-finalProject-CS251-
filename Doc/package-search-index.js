@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"GOFO"},{"l":"GOFO.contorllers"},{"l":"GOFO.DataModel"},{"l":"GOFO.OwnerClasses"},{"l":"GOFO.PlayerClasses"},{"l":"GOFO.Registering"},{"l":"GOFO.Users"},{"l":"GOFO.verification"}]
